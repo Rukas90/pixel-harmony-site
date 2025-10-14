@@ -1,0 +1,12 @@
+{ 
+    "Info":
+    {
+        "DisplayTitle": "Installation",
+        "Category": "Introduction",
+        "Description": "To install Pixel Harmony in your Unity project, follow the steps outlined below."
+    },
+    "Content":
+    {
+        "Key": "Installation"
+    }
+}

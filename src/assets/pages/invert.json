@@ -1,0 +1,44 @@
+{ 
+    "Info":
+    {
+        "DisplayTitle": "Invert",
+        "Category": "Adjustments",
+        "Description": "Reverses all colors in the image based on individual color channel settings, resulting in a photo-negative effect. Adjusting the sliders for the Red, Green, Blue, and Alpha channels allows for artistic effects and selective enhancement of specific image details."
+    },
+    "Content": 
+    {
+        "Key": "Modificator",
+        "Data": 
+        {
+            "Path": "Image / Adjustments / Invert",
+            "Properties": 
+            [
+                {
+                    "Name": "Red Channel",
+                    "Summary": "Inverts the red color channel. Moving the slider to the right increases the inversion effect for red hues, while moving it to the left decreases it.",
+                    "Type": "Slider"
+                },
+                {
+                    "Name": "Green Channel",
+                    "Summary": "Inverts the green color channel. Sliding to the right intensifies the inversion effect for green hues, while sliding to the left reduces it.",
+                    "Type": "Slider"
+                },
+                {
+                    "Name": "Blue Channel",
+                    "Summary": "Inverts the blue color channel. Moving the slider to the right amplifies the inversion effect for blue hues, while moving it to the left decreases it.",
+                    "Type": "Slider"
+                },
+                {
+                    "Name": "Alpha Channel",
+                    "Summary": "Inverts the alpha (transparency) channel. Increasing the slider value will make opaque areas more transparent and vice versa.",
+                    "Type": "Slider"
+                }
+            ],
+            "Preview": 
+            {
+                "Original": "/img/previews/adjustments/invert_example_original.jpg",
+                "Adjusted": "/img/previews/adjustments/invert_example_adjusted.jpg"
+            }
+        }
+    }
+}

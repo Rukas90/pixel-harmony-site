@@ -1,0 +1,39 @@
+{ 
+    "Info":
+    {
+        "DisplayTitle": "Color Fill",
+        "Category": "Filters",
+        "Description": "Applies a uniform color layer over the image. Useful for adding a color tint or creating a color background."
+    },
+    "Content": 
+    {
+        "Key": "Modificator",
+        "Data": 
+        {
+            "Path": "Filter / Render / Color Fill",
+            "Properties": 
+            [
+                {
+                    "Name": "Preserve Luminance",
+                    "Summary": "Maintains the original brightness levels of the image underneath the color fill. If disabled, the luminance of the image will be affected by the color fill.",
+                    "Type": "Toggle"
+                },
+                {
+                    "Name": "Color",
+                    "Summary": "Color of the overlay that is applied to the image. It can be selected from the color picker.",
+                    "Type": "Slider"
+                },
+                {
+                    "Name": "Opacity",
+                    "Summary": "Adjusts the transparency of the color fill. Higher opacity values make the color fill more opaque, overpowering the original colors of the image, while lower opacity values make the color fill more transparent, allowing more of the original image to show through.",
+                    "Type": "Slider"
+                }
+            ],
+            "Preview": 
+            {
+                "Original": "/img/previews/filters/color_fill_example_original.jpg",
+                "Adjusted": "/img/previews/filters/color_fill_example_adjusted.jpg"
+            }
+        }
+    }
+}

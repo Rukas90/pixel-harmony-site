@@ -1,0 +1,21 @@
+{ 
+    "Info":
+    {
+        "DisplayTitle": "Solarize",
+        "Category": "Filters",
+        "Description": "Applies a special effect that inverts the colors in the image, but only for the areas that are brighter than a certain threshold. The result is a unique combination of solarization and color inversion that creates a surreal, psychedelic look."
+    },
+    "Content": 
+    {
+        "Key": "Modificator",
+        "Data": 
+        {
+            "Path": "Filter / Stylize / Solarize",
+            "Preview": 
+            {
+                "Original": "/img/previews/filters/solarize_example_original.jpg",
+                "Adjusted": "/img/previews/filters/solarize_example_adjusted.jpg"
+            }
+        }
+    }
+}

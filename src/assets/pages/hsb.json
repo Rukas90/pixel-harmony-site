@@ -1,0 +1,59 @@
+{ 
+    "Info":
+    {
+        "DisplayTitle": "Hue, Saturation and Brightness",
+        "Category": "Adjustments",
+        "Description": "Offers comprehensive control over hue, saturation, and brightness.<br><br>Adjustments can be made for the entire image (master settings) or fine-tuned for individual color channels, including red, yellow, green, cyan, blue, and magenta. The hue range can also be altered, enabling precise color corrections and creative effects."
+    },
+    "Content": 
+    {
+        "Key": "Modificator",
+        "Data": 
+        {
+            "Path": "Image / Adjustments / HSB",
+            "Properties": 
+            [
+                {
+                    "Name": "Master Hue",
+                    "Summary": "Alters the overall hue of the image, shifting all colors along the color spectrum.",
+                    "Type": "Slider"
+                },
+                {
+                    "Name": "Master Saturation",
+                    "Summary": "Controls the overall color intensity. Increasing enhances color vibrancy, while decreasing results in muted colors.",
+                    "Type": "Slider"
+                },
+                {
+                    "Name": "Master Brightness",
+                    "Summary": "Modifies overall brightness. Higher values brighten the image, while lower values darken it.",
+                    "Type": "Slider"
+                },
+                {
+                    "Name": "Color Hue",
+                    "Summary": "Adjusts the hue of individual color channels, such as reds, yellows, greens, etc.",
+                    "Type": "Slider"
+                },
+                {
+                    "Name": "Color Saturation",
+                    "Summary": "Modifies the color intensity of specific channels, enhancing or reducing vibrancy in selected colors.",
+                    "Type": "Slider"
+                },
+                {
+                    "Name": "Color Brightness",
+                    "Summary": "Changes the brightness of individual color channels, allowing for targeted adjustments.",
+                    "Type": "Slider"
+                },
+                {
+                    "Name": "Color Range",
+                    "Summary": "Defines the range of each color affected by adjustments. Includes start falloff, start of range, end of range, and end falloff for precise tone control.",
+                    "Type": "Range"
+                }
+            ],
+            "Preview": 
+            {
+                "Original": "/img/previews/adjustments/hsb_example_original.jpg",
+                "Adjusted": "/img/previews/adjustments/hsb_example_adjusted.jpg"
+            }
+        }
+    }
+}

@@ -1,0 +1,34 @@
+{ 
+    "Info":
+    {
+        "DisplayTitle": "Offset",
+        "Category": "Filters",
+        "Description": "Shifts the image along the x (horizontal) and y (vertical) axes. The parts of the image that go beyond the frame wrap around to the other side, giving a seamless effect. It's useful for creating repetitive patterns or for adjusting the composition of the image without cropping."
+    },
+    "Content": 
+    {
+        "Key": "Modificator",
+        "Data": 
+        {
+            "Path": "Filter / Offset",
+            "Properties": 
+            [               
+                {
+                    "Name": "Offset X",
+                    "Summary": "Adjusts the horizontal shift of the image. Positive values move the image to the right, while negative values move it to the left.",
+                    "Type": "Slider"
+                },
+                {
+                    "Name": "Offset Y",
+                    "Summary": "Adjusts the vertical shift of the image. Positive values move the image down, while negative values move it up.",
+                    "Type": "Slider"
+                }
+            ],
+            "Preview": 
+            {
+                "Original": "/img/previews/filters/offset_example_original.jpg",
+                "Adjusted": "/img/previews/filters/offset_example_adjusted.jpg"
+            }
+        }
+    }
+}

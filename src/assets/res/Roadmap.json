@@ -1,0 +1,42 @@
+[
+    {
+        "Name": "Compose UI",
+        "Status": 1
+    },
+    {
+        "Name": "Selections (Rectangle, Eclipse)",
+        "Status": 1
+    },
+    {
+        "Name": "Polygon Selection",
+        "Status": 1
+    },
+    {
+        "Name": "3D Transformation",
+        "Status": 2
+    },
+    {
+        "Name": "Non-Destructive Editing",
+        "Status": 2
+    },
+    {
+        "Name": "Realtime API",
+        "Status": 2
+    },
+    {
+        "Name": "Text Layer",
+        "Status": 2
+    },
+    {
+        "Name": "Async Tile-based Rendering System + LODs",
+        "Status": 2
+    },
+    {
+        "Name": "Vector Shapes",
+        "Status": 2
+    },
+    {
+        "Name": "Pen Tool",
+        "Status": 2
+    }
+]

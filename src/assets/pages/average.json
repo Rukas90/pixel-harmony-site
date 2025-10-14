@@ -1,0 +1,21 @@
+{ 
+    "Info":
+    {
+        "DisplayTitle": "Average",
+        "Category": "Filters",
+        "Description": "Takes all the colors in the image and blends them together to create a single average color. It's a useful tool for quickly finding the dominant color in an image.<br>Applying the filter results in a uniform, one-color image representing the mean color value of the original picture."
+    },
+    "Content": 
+    {
+        "Key": "Modificator",
+        "Data": 
+        {
+            "Path": "Filter / Blur / Average",
+            "Preview": 
+            {
+                "Original": "/img/previews/filters/average_example_original.jpg",
+                "Adjusted": "/img/previews/filters/average_example_adjusted.jpg"
+            }
+        }
+    }
+}

@@ -1,0 +1,29 @@
+{ 
+    "Info":
+    {
+        "DisplayTitle": "MipMap",
+        "Category": "Filters",
+        "Description": "Generates a series of progressively lower-resolution versions of the input image. These 'mipmaps' are often used in 3D graphics to improve rendering efficiency and texture quality when objects are viewed from a distance, reducing aliasing and preserving detail."
+    },
+    "Content": 
+    {
+        "Key": "Modificator",
+        "Data": 
+        {
+            "Path": "Filter / Other / MipMap",
+            "Properties": 
+            [               
+                {
+                    "Name": "Level",
+                    "Summary": "Controls the resolution level of the mipmap being displayed. A higher level corresponds to a lower-resolution version of the image, while a lower level retains more of the original detail. Adjusting this property allows fine-tuning of texture sharpness and detail based on viewing distance.",
+                    "Type": "Slider"
+                }
+            ],
+            "Preview": 
+            {
+                "Original": "/img/previews/filters/mipmap_example_original.jpg",
+                "Adjusted": "/img/previews/filters/mipmap_example_adjusted.jpg"
+            }
+        }
+    }
+}

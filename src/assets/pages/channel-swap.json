@@ -1,0 +1,49 @@
+{ 
+    "Info":
+    {
+        "DisplayTitle": "Channel Swap",
+        "Category": "Adjustments",
+        "Description": "This tool allows you to interchange the color channels (Red, Green, Blue, and Alpha) in your image. It's a powerful way to experiment with color and create unique, artistic effects.<br>Options include: Red, InvertedRed, Green, InvertedGreen, Blue, InvertedBlue, Alpha, InvertedAlpha, One (full intensity), or Zero (no intensity)."
+    },
+    "Content": 
+    {
+        "Key": "Modificator",
+        "Data": 
+        {
+            "Path": "Image / Adjustments / Color / Channel Swap",
+            "Properties":
+            [
+                {
+                    "Name": "Red Channel",
+                    "Summary": "This allows you to substitute the red channel with another color or alpha channel.",
+                    "Type": "Enum"
+                },
+                {
+                    "Name": "Green Channel",
+                    "Summary": "This lets you replace the green channel with another color or alpha channel.",
+                    "Type": "Enum"
+                },
+                {
+                    "Name": "Blue Channel",
+                    "Summary": "This property swaps the blue channel with another color or alpha channel.",
+                    "Type": "Enum"
+                },
+                {
+                    "Name": "Alpha Channel",
+                    "Summary": "This swaps the alpha (transparency) channel with another color or alpha channel.",
+                    "Type": "Enum"
+                }
+            ],
+            "Info": 
+            {
+                "Label": "Enum values:",
+                "Text": "Red, Inverted Red, Green, Inverted Green, Blue, Inverted Blue, Alpha, Inverted Alpha, One and Zero"
+            },
+            "Preview": 
+            {
+                "Original": "/img/previews/adjustments/channel_swap_example_original.jpg",
+                "Adjusted": "/img/previews/adjustments/channel_swap_example_adjusted.jpg"
+            }
+        }
+    }
+}

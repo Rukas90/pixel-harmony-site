@@ -1,0 +1,65 @@
+{ 
+    "Info":
+    {
+        "DisplayTitle": "Normal Map",
+        "Label": "Expermental Feature",
+        "Category": "Filters",
+        "Description": "Converts the input image into a normal map, a specialized image used in 3D graphics to simulate surface texture and detail without additional geometry. This process encodes the direction of surface details into the colors of the image, creating the illusion of depth."
+    },
+    "Content": 
+    {
+        "Key": "Modificator",
+        "Data": 
+        {
+            "Path": "Filter / Generation / Expermental / Normal Map",
+            "Properties": 
+            [
+                {
+                    "Name": "Invert X",
+                    "Summary": "Inverts the direction of surface details encoded in the X dimension (left-right) of the normal map when toggled on.",
+                    "Type": "Toggle"
+                },
+                {
+                    "Name": "Invert Y",
+                    "Summary": "Inverts the direction of surface details encoded in the Y dimension (up-down) of the normal map when toggled on.",
+                    "Type": "Toggle"
+                },
+                {
+                    "Name": "Shape Recognition",
+                    "Summary": "Adjusts the algorithm's ability to identify and preserve the original shapes of details. Higher values enhance shape accuracy but may introduce noise or artifacts.",
+                    "Type": "Slider"
+                },
+                {
+                    "Name": "Strength",
+                    "Summary": "Controls the intensity of the normal map effect. Higher values increase the perceived depth and detail.",
+                    "Type": "Slider"
+                },
+                {
+                    "Name": "Rotation",
+                    "Summary": "Modifies the rotation of details, adjusting the apparent direction of light and shadow effects in the normal map.",
+                    "Type": "Slider"
+                },
+                {
+                    "Name": "Sharpen",
+                    "Summary": "Enhances detail by increasing contrast in high-frequency areas. Higher values yield sharper details but may also increase noise.",
+                    "Type": "Slider"
+                },
+                {
+                    "Name": "Frequency Weights",
+                    "Summary": "Seven sliders control the detail level across different frequencies. Weight 1 affects the lowest frequency (most blurred) details, while weight 7 influences the highest frequency (sharpest) details. Adjusting these controls the balance between large-scale and fine-scale detail.",
+                    "Type": "Slider"
+                }
+            ],
+            "Info": 
+            {
+                "Label": "Recommendation:",
+                "Text": "For optimal results, it is recommended to first generate a height map from the base image and then use this height map as the source to generate the normal map."
+            },
+            "Preview": 
+            {
+                "Original": "/img/previews/filters/albedo_map_example_original.jpg",
+                "Adjusted": "/img/previews/filters/normal_map_example_adjusted.jpg"
+            }
+        }
+    }
+}

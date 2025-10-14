@@ -1,0 +1,29 @@
+{ 
+    "Info":
+    {
+        "DisplayTitle": "Threshold",
+        "Category": "Adjustments",
+        "Description": "Converts the image into a high-contrast, black-and-white version by setting all pixels lighter than a certain level to white, and all pixels darker than that level to black. It's often used for graphic design purposes or to create stencil-like images."
+    },
+    "Content": 
+    {
+        "Key": "Modificator",
+        "Data": 
+        {
+            "Path": "Image / Adjustments / Threshold",
+            "Properties":
+            [
+                {
+                    "Name": "Level",
+                    "Summary": "Sets the cutoff point for the conversion to black and white. If a pixel's brightness is above this level, it will turn white; if it's below, it will turn black. Adjusting this level controls how much of the image becomes black or white.",
+                    "Type": "Slider"
+                }
+            ],
+            "Preview": 
+            {
+                "Original": "/img/previews/adjustments/threshold_example_original.jpg",
+                "Adjusted": "/img/previews/adjustments/threshold_example_adjusted.jpg"
+            }
+        }
+    }
+}

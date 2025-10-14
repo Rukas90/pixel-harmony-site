@@ -1,0 +1,34 @@
+{ 
+    "Info":
+    {
+        "DisplayTitle": "Value Noise",
+        "Category": "Filters",
+        "Description": "Generates a value noise, which is a type of noise consisting of smooth random values at a grid of points. It creates an organic and less uniform pattern of noise that can be used for creating textures and backgrounds."
+    },
+    "Content": 
+    {
+        "Key": "Modificator",
+        "Data": 
+        {
+            "Path": "Filter / Render / Noise / Value Noise",
+            "Properties": 
+            [
+                {
+                    "Name": "Scale",
+                    "Summary": "Adjusts the size of the noise pattern. A larger scale increases the size of the features in the noise, creating fewer but larger areas of color. A smaller scale decreases the feature size, resulting in a more detailed noise pattern with more, smaller areas of color.",
+                    "Type": "Slider"
+                },
+                {
+                    "Name": "Gradient",
+                    "Summary": "Selects the colors that will be used in the Value noise. The gradient is interpolated over the grayscale noise values. Each point in the noise pattern is assigned a color from the gradient based on its value, with low values taking colors from one end of the gradient and high values from the other end.",
+                    "Type": "Gradient"
+                }
+            ],
+            "Preview": 
+            {
+                "Original": "/img/previews/filters/value_noise_example_1.jpg",
+                "Adjusted": "/img/previews/filters/value_noise_example_2.jpg"
+            }
+        }
+    }
+}

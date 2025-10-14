@@ -1,0 +1,21 @@
+{ 
+    "Info":
+    {
+        "DisplayTitle": "Desaturate",
+        "Category": "Adjustments",
+        "Description": "Turns all image colors to their luminosity values."
+    },
+    "Content": 
+    {
+        "Key": "Modificator",
+        "Data": 
+        {
+            "Path": "Image / Adjustments / Desaturate",
+            "Preview": 
+            {
+                "Original": "/img/previews/adjustments/desaturate_example_original.jpg",
+                "Adjusted": "/img/previews/adjustments/desaturate_example_adjusted.jpg"
+            }
+        }
+    }
+}

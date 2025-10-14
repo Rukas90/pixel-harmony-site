@@ -1,0 +1,34 @@
+{ 
+    "Info":
+    {
+        "DisplayTitle": "Perlin Noise",
+        "Category": "Filters",
+        "Description": "Generates a type of noise called Perlin noise, a smooth, natural-looking form of gradient noise. Perlin noise is a staple in computer graphics used for creating realistic textures and visual effects like fire, water, and clouds."
+    },
+    "Content": 
+    {
+        "Key": "Modificator",
+        "Data": 
+        {
+            "Path": "Filter / Render / Noise / Perlin Noise",
+            "Properties": 
+            [
+                {
+                    "Name": "Scale",
+                    "Summary": "Adjusts the size of the noise pattern. A larger scale increases the size of the features in the noise, creating fewer but larger areas of color. A smaller scale decreases the feature size, resulting in a more detailed noise pattern with more, smaller areas of color.",
+                    "Type": "Slider"
+                },
+                {
+                    "Name": "Gradient",
+                    "Summary": "Selects the colors that will be used in the Perlin noise. The gradient is interpolated over the grayscale noise values. Each point in the noise pattern is assigned a color from the gradient based on its value, with low values taking colors from one end of the gradient and high values from the other end.",
+                    "Type": "Gradient"
+                }
+            ],
+            "Preview": 
+            {
+                "Original": "/img/previews/filters/perlin_noise_example_1.jpg",
+                "Adjusted": "/img/previews/filters/perlin_noise_example_2.jpg"
+            }
+        }
+    }
+}

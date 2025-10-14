@@ -1,0 +1,39 @@
+{ 
+    "Info":
+    {
+        "DisplayTitle": "Bilateral Blur",
+        "Category": "Filters",
+        "Description": "Applies a blur effect to the image that preserves edges. This is achieved by blurring pixels based on both their spatial proximity and their color similarity to a central pixel. It's useful for reducing noise or texture in an image while maintaining sharp edges."
+    },
+    "Content": 
+    {
+        "Key": "Modificator",
+        "Data": 
+        {
+            "Path": "Filter / Blur / Bilateral Blur",
+            "Properties": 
+            [
+                {
+                    "Name": "Sigma",
+                    "Summary": "Adjusts the spatial intensity of the blur. A higher sigma value will increase the radius of the blur, making the effect more pronounced. However, unlike a standard blur, the bilateral blur will preserve edges regardless of the sigma value.",
+                    "Type": "Slider"
+                },
+                {
+                    "Name": "BSigma",
+                    "Summary": "Controls the color intensity threshold for the blur. Pixels with a color difference greater than this value from the central pixel will not be blurred. This helps to preserve edges and details in the image.",
+                    "Type": "Slider"
+                },
+                {
+                    "Name": "Kernel Size",
+                    "Summary": "Sets the size of the region around each pixel that the filter considers when applying the blur. A larger kernel size will result in a smoother image but might also increase processing time.",
+                    "Type": "Slider"
+                }
+            ],
+            "Preview": 
+            {
+                "Original": "/img/previews/filters/bilateral_blur_example_original.jpg",
+                "Adjusted": "/img/previews/filters/bilateral_blur_example_adjusted.jpg"
+            }
+        }
+    }
+}

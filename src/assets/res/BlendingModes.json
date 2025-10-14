@@ -1,0 +1,204 @@
+[
+    {
+        "Category": "Normal Modes",
+        "Modes": 
+        [
+            {
+                "Name": "Normal",
+                "Summary": "Edits or paints each pixel to replace its current color with the selected color.",
+                "Example": "/img/previews/blending-modes/blending-normal.jpg"
+            },
+            {
+                "Name": "Behind",
+                "Summary": "Edits or paints only the transparent portions of a layer without affecting the opaque portions. This mode allows you to fill in transparency with new content while preserving the existing layer contents, effectively acting like painting \"behind\" the existing artwork or details. It's particularly useful for adding backgrounds or additional details to an image with transparency.",
+                "Example": "/img/previews/blending-modes/blending-original.jpg"
+            },
+            {
+                "Name": "Dissolve",
+                "Summary": "Edits or paints each pixel to either retain its original color or change to the new selected color, based on the opacity level of the tool or layer. If the layer or tool's opacity is set to 100%, the effect is similar to the Normal mode. However, at lower opacity levels, some pixels randomly retain their original color, creating a speckled or noise effect.",
+                "Example": "/img/previews/blending-modes/blending-dissolve.jpg"
+            },
+            {
+                "Name": "Clear",
+                "Summary": "Edits or paints each pixel to make it transparent, effectively erasing or removing any existing colors or details. This mode is similar to the Eraser tool in many graphic software, making it particularly useful for removing unwanted areas or creating transparent sections in a layer.",
+                "Example": "/img/previews/blending-modes/blending-clear.jpg"
+            }
+        ]
+    },
+    {
+        "Category": "Darkening Modes",
+        "Modes": 
+        [
+            {
+                "Name": "Darken",
+                "Summary": "Edits or paints each pixel to become the darker of the base color or the blend color. If the blend color (the color you're painting with) is lighter than the base color (the original color in the image), the pixel remains unchanged. If the blend color is darker, it replaces the base color. This mode is often used to darken images or to add shadows.",
+                "Example": "/img/previews/blending-modes/blending-darken.jpg"
+            },
+            {
+                "Name": "Multiply",
+                "Summary": "Edits or paints each pixel to multiply the base color by the blend color. The resulting color is usually darker, as if the two colors were combined in real life using colored filters. The effect is similar to drawing on paper with markers, where the colors become darker and more saturated where they overlap. Light colors have little effect, while dark colors can significantly darken an image.",
+                "Example": "/img/previews/blending-modes/blending-multiply.jpg"
+            },
+            {
+                "Name": "Color Burn",
+                "Summary": "Edits or paints each pixel to intensify the base color to reflect the blend color by increasing the contrast. This creates a \"burned\" or \"deepened\" effect. Darker blend colors will result in more intensely dark and saturated outcomes. It's useful for darkening highlights or mid-tones in an image. Light blend colors have little to no change on the base color.",
+                "Example": "/img/previews/blending-modes/blending-color-burn.jpg"
+            },
+            {
+                "Name": "Linear Burn",
+                "Summary": "Edits or paints each pixel to reduce the brightness of the base color based on the value of the blend color, resulting in darker colors. Unlike Color Burn, which increases contrast, Linear Burn reduces brightness by adding the blend and base color values and subtracting white. This mode is useful for adding depth and shadows without significantly altering colors. Light blend colors will have minimal effect, while darker blend colors will significantly darken the image.",
+                "Example": "/img/previews/blending-modes/blending-linear-burn.jpg"
+            },
+            {
+                "Name": "Darker Color",
+                "Summary": "Edits each pixel to display the darker of the base and blend colors. Similar to Darker Color, this mode does not blend colors; it only compares base and blend colors, and displays the darker of the two.",
+                "Example": "/img/previews/blending-modes/blending-darker-color.jpg"
+            }
+        ]
+    },
+    {
+        "Category": "Lightening Modes",
+        "Modes": 
+        [
+            {
+                "Name": "Lighten",
+                "Summary": "Edits or paints each pixel to become the lighter of the base color or the blend color. If the blend color (the color you're painting with) is darker than the base color (the original color in the image), the pixel remains unchanged. If the blend color is lighter, it replaces the base color. This mode is typically used to lighten images or to add highlights.",
+                "Example": "/img/previews/blending-modes/blending-lighten.jpg"
+            },
+            {
+                "Name": "Screen",
+                "Summary": "Edits or paints each pixel to invert both the base and the blend colors, multiplies them, and then inverts the result. This typically results in a lighter color. Screen reduces contrast and can brighten an image, behaving like projecting multiple photographic slides simultaneously onto a single screen.",
+                "Example": "/img/previews/blending-modes/blending-screen.jpg"
+            },
+            {
+                "Name": "Color Dodge",
+                "Summary": "Edits or paints each pixel to decrease the contrast between the base and the blend colors, resulting in a lighter image. Color Dodge is used to brighten images and create areas that appear more highlighted or washed out. Dark blend colors will have minimal effect, while lighter blend colors will significantly brighten the image.",
+                "Example": "/img/previews/blending-modes/blending-color-dodge.jpg"
+            },
+            {
+                "Name": "Linear Dodge",
+                "Summary": "Edits or paints each pixel to add the base and blend colors. The resulting image is usually lighter, and can sometimes be washed out if the blend color is very bright. This blend mode can be used to add light and brighten pictures, or to create an intense light in a certain area of the image.",
+                "Example": "/img/previews/blending-modes/blending-linear-dodge.jpg"
+            },
+            {
+                "Name": "Lighter Color",
+                "Summary": "Edits or paints each pixel to add the base and blend colors. The resulting image is usually lighter, and can sometimes be washed out if the blend color is very bright. This blend mode can be used to add light and brighten pictures, or to create an intense light in a certain area of the image.",
+                "Example": "/img/previews/blending-modes/blending-lighter-color.jpg"
+            }
+        ]
+    },
+    {
+        "Category": "Contrast Modes",
+        "Modes": 
+        [
+            {
+                "Name": "Overlay",
+                "Summary": "Edits or paints each pixel to combine Multiply and Screen blend modes. Light blend colors lighten the image as in Screen mode, and dark blend colors darken the image as in Multiply mode. Overlay increases contrast and is often used for adding highlights and shadows to an image, giving it more depth and making the image look more vibrant.",
+                "Example": "/img/previews/blending-modes/blending-overlay.jpg"
+            },
+            {
+                "Name": "Soft Light",
+                "Summary": "Edits or paints each pixel to combine Multiply and Screen blend modes. Light blend colors lighten the image as in Screen mode, and dark blend colors darken the image as in Multiply mode. Overlay increases contrast and is often used for adding highlights and shadows to an image, giving it more depth and making the image look more vibrant.",
+                "Example": "/img/previews/blending-modes/blending-soft-light.jpg"
+            },
+            {
+                "Name": "Hard Light",
+                "Summary": "Edits or paints each pixel to either darken or lighten colors, depending on the blend color. If the blend color is lighter than 50% gray, the image is lightened as if it were screened. If the blend color is darker than 50% gray, the image is darkened as if it were multiplied. The effect is similar to shining a harsh spotlight on the image.",
+                "Example": "/img/previews/blending-modes/blending-hard-light.jpg"
+            },
+            {
+                "Name": "Vivid Light",
+                "Summary": "Edits or paints each pixel to either increase or decrease contrast, based on the blend color. If the blend color is lighter than 50% gray, the image is lightened by decreasing contrast, simulating a Color Dodge. If the blend color is darker than 50% gray, the image is darkened by increasing contrast, simulating a Color Burn.",
+                "Example": "/img/previews/blending-modes/blending-vivid-light.jpg"
+            },
+            {
+                "Name": "Linear Light",
+                "Summary": "Edits or paints each pixel to either increase or decrease brightness, based on the blend color. If the blend color is lighter than 50% gray, the image is lightened by increasing brightness, similar to Linear Dodge. If the blend color is darker than 50% gray, the image is darkened by decreasing brightness, similar to Linear Burn.",
+                "Example": "/img/previews/blending-modes/blending-linear-light.jpg"
+            },
+            {
+                "Name": "Pin Light",
+                "Summary": "Edits or paints each pixel to replace the colors, depending on the blend color. If the blend color is lighter than 50% gray, pixels darker than the blend color are replaced, and pixels lighter than the blend color do not change. If the blend color is darker than 50% gray, pixels lighter than the blend color are replaced, and pixels darker than the blend color do not change.",
+                "Example": "/img/previews/blending-modes/blending-pin-light.jpg"
+            },
+            {
+                "Name": "Hard Mix",
+                "Summary": "Edits or paints each pixel to add the red, green and blue channel values of the blend color to the RGB values of the base color. If the resulting value is greater than 255, it changes to 255; if less than 255, it changes to 0. This results in an image that can only contain up to eight colors: red, green, blue, cyan, magenta, yellow, black, and white.",
+                "Example": "/img/previews/blending-modes/blending-hard-mix.jpg"
+            }
+        ]
+    },
+    {
+        "Category": "Comparative Modes",
+        "Modes": 
+        [
+            {
+                "Name": "Difference",
+                "Summary": "Edits or paints each pixel to subtract the darker of the base and blend colors from the lighter. If the base color is lighter, the blend color is subtracted from it, and vice versa. This can result in high contrast, psychedelic effects.",
+                "Example": "/img/previews/blending-modes/blending-difference.jpg"
+            },
+            {
+                "Name": "Exclusion",
+                "Summary": "Edits or paints each pixel to create an effect similar to Difference, but with lower contrast. Exclusion blend mode blends colors based on brightness, resulting in a more muted and less colorful image. When the blend color is white, the base color is inverted; when black, it remains unchanged.",
+                "Example": "/img/previews/blending-modes/blending-exclusion.jpg"
+            },
+            {
+                "Name": "Subtract",
+                "Summary": "Edits or paints each pixel to subtract the blend color from the base color. If the result is negative, black is displayed. Subtract is useful for creating high-contrast black and white images.",
+                "Example": "/img/previews/blending-modes/blending-subtract.jpg"
+            },
+            {
+                "Name": "Divide",
+                "Summary": "Edits or paints each pixel to divide the base color by the blend color. This results in a brightening effect, particularly where the blend color is dark. It can be used to correct color casts in photos.",
+                "Example": "/img/previews/blending-modes/blending-divide.jpg"
+            }
+        ]
+    },
+    {
+        "Category": "Color Adjusting Modes",
+        "Modes": 
+        [
+            {
+                "Name": "Hue",
+                "Summary": "Edits or paints each pixel to apply the hue of the blend color, while maintaining the saturation and luminosity of the base color. This mode can be used to change colors while preserving the tonal qualities of the image.",
+                "Example": "/img/previews/blending-modes/blending-hue.jpg"
+            },
+            {
+                "Name": "Saturation",
+                "Summary": "Edits or paints each pixel to apply the saturation of the blend color, while maintaining the hue and luminosity of the base color. This mode is useful for intensifying or muting colors in an image.",
+                "Example": "/img/previews/blending-modes/blending-saturation.jpg"
+            },
+            {
+                "Name": "Color",
+                "Summary": "Edits or paints each pixel to apply the hue and saturation of the blend color, while preserving the luminosity of the base color. This mode is often used for colorizing images or elements in an image, and for tinting grayscale images.",
+                "Example": "/img/previews/blending-modes/blending-color.jpg"
+            },
+            {
+                "Name": "Luminosity",
+                "Summary": "Edits or paints each pixel to apply the luminosity (brightness) of the blend color, while preserving the hue and saturation of the base color. This mode is the inverse of Color mode, and is useful for changing the lighting in an image without altering the colors.",
+                "Example": "/img/previews/blending-modes/blending-luminosity.jpg"
+            }
+        ]
+    },
+    {
+        "Category": "Special Modes",
+        "Modes": 
+        [
+            {
+                "Name": "Negation",
+                "Summary": "Edits or paints each pixel to create an effect similar to Difference, but with an inversion. The resulting color is a 180-degree inversion on the color wheel of the difference between the base and blend colors. This mode is often used to create special effects in images.",
+                "Example": "/img/previews/blending-modes/blending-negation.jpg"
+            },
+            {
+                "Name": "Reflect",
+                "Summary": "Edits or paints each pixel to create a reflection effect. It simulates the effect you'd see if the blend layer was reflected off the base layer as if it were a shiny surface. This mode doesn't work with white in the base layer (it becomes transparent), but works very well with black.",
+                "Example": "/img/previews/blending-modes/blending-reflect.jpg"
+            },
+            {
+                "Name": "Phoenix",
+                "Summary": "Edits or paints each pixel to create a blend that is the lighter of Color Dodge and Color Burn. It decreases contrast and increases brightness, often resulting in pastel effects and brighter colors. This mode can be used for correction purposes or to create unique lighting effects.",
+                "Example": "/img/previews/blending-modes/blending-phoenix.jpg"
+            }
+        ]
+    }
+]

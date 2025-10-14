@@ -1,0 +1,55 @@
+{ 
+    "Info":
+    {
+        "DisplayTitle": "Height Map",
+        "Label": "Expermental Feature",
+        "Category": "Filters",
+        "Description": "Generates a height map from the input image. A height map is a grayscale representation where pixel brightness corresponds to the terrain height at each point. Commonly used in 3D modeling and game development, it helps create intricate terrain and surface details."
+    },
+    "Content": 
+    {
+        "Key": "Modificator",
+        "Data": 
+        {
+            "Path": "Filter / Generation / Expermental / Height Map",
+            "Properties": 
+            [
+                {
+                    "Name": "Gamma Correction",
+                    "Summary": "Adjusts the gamma correction applied to the height map. Modifying gamma enhances height differences in darker areas or softens them in brighter areas.",
+                    "Type": "Slider"
+                },
+                {
+                    "Name": "Gain",
+                    "Summary": "Controls the overall intensity of the height map effect. Higher values emphasize height differences, while lower values reduce them.",
+                    "Type": "Slider"
+                },
+                {
+                    "Name": "Contrast",
+                    "Summary": "Enhances or reduces the distinction between light and dark areas. Higher values make height differences more pronounced, while lower values soften them.",
+                    "Type": "Slider"
+                },
+                {
+                    "Name": "Bias",
+                    "Summary": "Adjusts the balance between light and dark regions. Increasing bias brightens the image, highlighting higher terrain, while decreasing it darkens the image, emphasizing lower terrain.",
+                    "Type": "Slider"
+                },
+                {
+                    "Name": "Frequency Weights",
+                    "Summary": "Seven sliders control the influence of different frequency levels. Weight 1 affects the lowest frequency (largest features), while weight 7 controls the highest frequency (smallest features). Adjusting these sliders fine-tunes the balance between large-scale and fine-scale details.",
+                    "Type": "Slider"
+                },
+                {
+                    "Name": "Frequency Contrasts",
+                    "Summary": "These seven sliders adjust contrast at each frequency level. Increasing a slider enhances height differences at that frequency, making the terrain more rugged, while decreasing it smoothens the terrain.",
+                    "Type": "Slider"
+                }
+            ],
+            "Preview": 
+            {
+                "Original": "/img/previews/filters/albedo_map_example_original.jpg",
+                "Adjusted": "/img/previews/filters/height_map_example_adjusted.jpg"
+            }
+        }
+    }
+}

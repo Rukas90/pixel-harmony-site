@@ -1,0 +1,21 @@
+{ 
+    "Info":
+    {
+        "DisplayTitle": "Flip",
+        "Category": "Adjustments",
+        "Description": "Flips the entire image either horizontally or vertically."
+    },
+    "Content": 
+    {
+        "Key": "Modificator",
+        "Data": 
+        {
+            "Path": "Image / Adjustments / Flip (Horizontal / Vertical)",
+            "Preview": 
+            {
+                "Original": "/img/previews/adjustments/flip_example_original.jpg",
+                "Adjusted": "/img/previews/adjustments/flip_example_adjusted.jpg"
+            }
+        }
+    }
+}

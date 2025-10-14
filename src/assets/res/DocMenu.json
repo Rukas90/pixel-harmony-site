@@ -1,0 +1,324 @@
+[
+    {
+        "label": "introduction",
+        "items": 
+        [
+            {
+                "label": "Requirements",
+                "href": "/docs/requirements"
+            },
+            {
+                "label": "Installation",
+                "href": "/docs/installation"
+            },
+            {
+                "label": "Shortcuts",
+                "href": "/docs/shortcuts"
+            }
+        ]
+    },
+    {
+        "label": "Resources",
+        "items": 
+        [
+            {
+                "label": "Color Galleries",
+                "href": "/docs/color-galleries"
+            },
+            {
+                "label": "Brushes Management",
+                "href": "/docs/brushes-management"
+            },
+            {
+                "label": "Create new Brush",
+                "href": "/docs/create-new-brush"
+            },
+            {
+                "label": "Brush Settings",
+                "href": "/docs/brush-settings"
+            }
+        ]
+    },
+    {
+        "label": "Painting",
+        "items": 
+        [
+            {
+                "label": "Painting Tools",
+                "href": "/docs/painting-tool"
+            },
+            {
+                "label": "Pixel Art",
+                "href": "/docs/pixel-art"
+            },
+            {
+                "label": "Blending Modes",
+                "href": "/docs/blending-modes"
+            }
+        ]
+    },
+    {
+        "label": "Adjustments",
+        "items": 
+        [
+            {
+                "label": "Brightness Contrast",
+                "href": "/docs/brightness-contrast"
+            },
+            {
+                "label": "Channel Clamp",
+                "href": "/docs/channel-clamp"
+            },
+            {
+                "label": "Channel Mixer",
+                "href": "/docs/channel-mixer"
+            },
+            {
+                "label": "Channel Swap",
+                "href": "/docs/channel-swap"
+            },
+            {
+                "label": "Color Balance",
+                "href": "/docs/color-balance"
+            },
+            {
+                "label": "Lift Gain Gamma",
+                "href": "/docs/lift-gain-gamma"
+            },
+            {
+                "label": "Color Correction",
+                "href": "/docs/color-correction"
+            },
+            {
+                "label": "Levels",
+                "href": "/docs/levels"
+            },
+            {
+                "label": "Desaturate",
+                "href": "/docs/desaturate"
+            },
+            {
+                "label": "Replace Color",
+                "href": "/docs/replace-color"
+            },
+            {
+                "label": "Exposure",
+                "href": "/docs/exposure"
+            },
+            {
+                "label": "Flip",
+                "href": "/docs/flip"
+            },
+            {
+                "label": "HSB",
+                "href": "/docs/hsb"
+            },
+            {
+                "label": "Invert",
+                "href": "/docs/invert"
+            },
+            {
+                "label": "Mirror",
+                "href": "/docs/mirror"
+            },
+            {
+                "label": "Posterize",
+                "href": "/docs/posterize"
+            },
+            {
+                "label": "Threshold",
+                "href": "/docs/threshold"
+            },
+            {
+                "label": "Vibrance",
+                "href": "/docs/vibrance"
+            }
+        ]
+    },
+    {
+        "label": "Filters",
+        "items": 
+        [
+            {
+                "label": "Blur",
+                "items":
+                [
+                    {
+                        "label": "Average",
+                        "href": "/docs/average"
+                    },
+                    {
+                        "label": "High Pass",
+                        "href": "/docs/high-pass"
+                    },
+                    {
+                        "label": "Bilateral Blur",
+                        "href": "/docs/bilateral-blur"
+                    },
+                    {
+                        "label": "Gaussian Blur",
+                        "href": "/docs/gaussian-blur"
+                    }
+                ]
+            },
+            {
+                "label": "Distortion",
+                "items":
+                [
+                    {
+                        "label": "Radial Shear",
+                        "href": "/docs/radial-shear"
+                    },
+                    {
+                        "label": "Noise Distort",
+                        "href": "/docs/noise-distort"
+                    }
+                ]
+            },
+            {
+                "label": "Pixelate",
+                "items":
+                [
+                    {
+                        "label": "Mosaic",
+                        "href": "/docs/mosaic"
+                    }
+                ]
+            },
+            {
+                "label": "Stylize",
+                "items":
+                [
+                    {
+                        "label": "Solarize",
+                        "href": "/docs/solarize"
+                    },
+                    {
+                        "label": "Emboss",
+                        "href": "/docs/emboss"
+                    },
+                    {
+                        "label": "Glowing Edge",
+                        "href": "/docs/glowing-edge"
+                    }
+                ]
+            },
+            {
+                "label": "Render",
+                "items":
+                [
+                    {
+                        "label": "Color Fill",
+                        "href": "/docs/color-fill"
+                    },
+                    {
+                        "label": "Gradient Fill",
+                        "href": "/docs/gradient-fill"
+                    },
+                    {
+                        "label": "Pattern",
+                        "href": "/docs/pattern"
+                    }
+                ]
+            },
+            {
+                "label": "PBR",
+                "items": 
+                [
+                    {
+                        "label": "Normal Map",
+                        "href": "/docs/normal-map"
+                    },
+                    {
+                        "label": "Height Map",
+                        "href": "/docs/height-map"
+                    },
+                    {
+                        "label": "Smoothness Map",
+                        "href": "/docs/smoothness-map"
+                    },
+                    {
+                        "label": "Metallic Map",
+                        "href": "/docs/metallic-map"
+                    },
+                    {
+                        "label": "AO Map",
+                        "href": "/docs/ao-map"
+                    }
+                ]
+            },
+            {
+                "label": "Sharpen",
+                "items": 
+                [
+                    {
+                        "label": "Sharpen",
+                        "href": "/docs/sharpen"
+                    },
+                    {
+                        "label": "Smart Sharpen",
+                        "href": "/docs/smart-sharpen"
+                    },
+                    {
+                        "label": "Unsharp Mask",
+                        "href": "/docs/unsharp-mask"
+                    }
+                ]
+            },
+            {
+                "label": "Noise Removal",
+                "items": 
+                [
+                    {
+                        "label": "Bilateral Noise Removal",
+                        "href": "/docs/bilateral-noise-removal"
+                    }
+                ]
+            },
+            {
+                "label": "Noise",
+                "items":
+                [
+                    {
+                        "label": "Hash Noise",
+                        "href": "/docs/hash-noise"
+                    },
+                    {
+                        "label": "Perlin Noise",
+                        "href": "/docs/perlin-noise"
+                    },
+                    {
+                        "label": "Simplex Noise",
+                        "href": "/docs/simplex-noise"
+                    },
+                    {
+                        "label": "Value Noise",
+                        "href": "/docs/value-noise"
+                    },
+                    {
+                        "label": "Voronoi Noise",
+                        "href": "/docs/voronoi-noise"
+                    }
+                ]
+            },
+            {
+                "label": "Other",
+                "items":
+                [
+                    {
+                        "label": "Offset",
+                        "href": "/docs/offset"
+                    },
+                    {
+                        "label": "MipMap",
+                        "href": "/docs/mipmap"
+                    },
+                    {
+                        "label": "Custom",
+                        "href": "/docs/custom"
+                    }
+                ]
+            }
+        ]
+    }
+]

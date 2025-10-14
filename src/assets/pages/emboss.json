@@ -1,0 +1,44 @@
+{ 
+    "Info":
+    {
+        "DisplayTitle": "Emboss",
+        "Category": "Filters",
+        "Description": "Gives the image a three-dimensional, embossed look as if it has been stamped or raised. It achieves this effect by highlighting and shadowing the edges in the image, providing a sense of depth and texture."
+    },
+    "Content": 
+    {
+        "Key": "Modificator",
+        "Data": 
+        {
+            "Path": "Filter / Stylize / Emboss",
+            "Properties": 
+            [
+                {
+                    "Name": "Strength",
+                    "Summary": "Adjusts the intensity of the embossing effect. A higher strength value increases the contrast between the highlighted and shadowed areas, enhancing the 3D effect, while a lower value creates a subtler effect.",
+                    "Type": "Slider"
+                },
+                {
+                    "Name": "Radius",
+                    "Summary": "Determines the size of the area around each pixel that the filter considers when calculating the emboss effect. A larger radius will result in broader, smoother edges, while a smaller radius will create finer, sharper edges.",
+                    "Type": "Slider"
+                },
+                {
+                    "Name": "Angle",
+                    "Summary": "Sets the apparent light source direction for the emboss effect. Changing the angle alters the direction of the highlights and shadows, which can give the impression of a different light source direction.",
+                    "Type": "Slider"
+                },
+                {
+                    "Name": "Color Percentage",
+                    "Summary": "Adjusts the proportion of the original color retained in the embossed image. A higher percentage keeps more of the original colors, while a lower percentage results in an image closer to a traditional monochrome emboss effect.",
+                    "Type": "Slider"
+                }
+            ],
+            "Preview": 
+            {
+                "Original": "/img/previews/filters/emboss_example_original.jpg",
+                "Adjusted": "/img/previews/filters/emboss_example_adjusted.jpg"
+            }
+        }
+    }
+}

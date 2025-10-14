@@ -1,0 +1,29 @@
+{ 
+    "Info":
+    {
+        "DisplayTitle": "Vibrance",
+        "Category": "Adjustments",
+        "Description": "Enhances the intensity of muted colors in the image while preserving the natural look of already well-saturated colors. This adjustment increases overall vibrancy without over-saturating, making it particularly effective for maintaining realistic skin tones."
+    },
+    "Content": 
+    {
+        "Key": "Modificator",
+        "Data": 
+        {
+            "Path": "Image / Adjustments / Vibrance",
+            "Properties": 
+            [
+                {
+                    "Name": "Vibrance",
+                    "Summary": "Controls the intensity of the vibrance effect. Increasing the value enhances the saturation of less saturated colors, while decreasing it reduces saturation. Unlike standard saturation adjustments, it minimally affects colors that are already vibrant.",
+                    "Type": "Slider"
+                }
+            ],
+            "Preview": 
+            {
+                "Original": "/img/previews/adjustments/vibrance_example_original.jpg",
+                "Adjusted": "/img/previews/adjustments/vibrance_example_adjusted.jpg"
+            }
+        }
+    }
+}

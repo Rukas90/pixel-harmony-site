@@ -1,0 +1,12 @@
+{ 
+    "Info":
+    {
+        "DisplayTitle": "Brushes Management",
+        "Category": "Resources",
+        "Description": "Pixel Harmony offers versatile tools that make managing and customizing brushes simple and intuitive."
+    },
+    "Content": 
+    {
+        "Key": "BrushesManagement"
+    }
+}

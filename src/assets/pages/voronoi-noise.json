@@ -1,0 +1,39 @@
+{ 
+    "Info":
+    {
+        "DisplayTitle": "Voronoi Noise",
+        "Category": "Filters",
+        "Description": "Generates Voronoi noise, also known as Worley noise. This type of noise is based on a grid of points, with each pixel in the image getting a value based on its distance from the nearest point. This creates a cellular pattern that can be used to generate textures resembling marble, stone, and other natural materials."
+    },
+    "Content": 
+    {
+        "Key": "Modificator",
+        "Data": 
+        {
+            "Path": "Filter / Render / Noise / Voronoi Noise",
+            "Properties": 
+            [               
+                {
+                    "Name": "Angle",
+                    "Summary": "Controls the rotation of the Voronoi cells in the noise pattern. Adjusting the angle can create a wide variety of patterns, from straight, grid-like cells to more complex and irregular patterns.",
+                    "Type": "Slider"
+                },
+                {
+                    "Name": "Density",
+                    "Summary": "Adjusts the number of points used to generate the Voronoi cells. A higher density creates more, smaller cells, while a lower density results in fewer, larger cells.",
+                    "Type": "Slider"
+                },
+                {
+                    "Name": "Gradient",
+                    "Summary": "This selects the colors that will be used in the Voronoi noise. The gradient is interpolated over the grayscale noise values. Each point in the noise pattern is assigned a color from the gradient based on its value, with low values taking colors from one end of the gradient and high values from the other end.",
+                    "Type": "Gradient"
+                }
+            ],
+            "Preview": 
+            {
+                "Original": "/img/previews/filters/voronoi_noise_example_1.jpg",
+                "Adjusted": "/img/previews/filters/voronoi_noise_example_2.jpg"
+            }
+        }
+    }
+}

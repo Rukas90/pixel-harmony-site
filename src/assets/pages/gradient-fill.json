@@ -1,0 +1,69 @@
+{ 
+    "Info":
+    {
+        "DisplayTitle": "Gradient Fill",
+        "Category": "Filters",
+        "Description": "Applies a gradient of colors over the image. It is versatile and can be used for a wide variety of purposes, from creating smooth transitions between two or more colors, to creating beautiful backgrounds and overlays."
+    },
+    "Content": 
+    {
+        "Key": "Modificator",
+        "Data": 
+        {
+            "Path": "Filter / Render / Gradient Fill",
+            "Properties": 
+            [
+                {
+                    "Name": "Preserve Luminance",
+                    "Summary": "Maintains the original brightness levels of the image underneath the gradient fill. If disabled, the luminance of the image will be affected by the gradient fill.",
+                    "Type": "Toggle"
+                },
+                {
+                    "Name": "Gradient",
+                    "Summary": "Gradient that is applied to the image. A gradient is a blend of two or more colors that transition smoothly from one to another.<br>The colors can be customized in the gradient and the positions of the color transitions by using the gradient editor tool.",
+                    "Type": "Gradient"
+                },
+                {
+                    "Name": "Gradient Type",
+                    "Summary": "Determines the shape and direction of the gradient.",
+                    "Type": "Enum"
+                },
+                {
+                    "Name": "Reverse",
+                    "Summary": "Reverses the direction of the gradient, swapping the starting and ending colors.",
+                    "Type": "Toggle"
+                },
+                {
+                    "Name": "Angle",
+                    "Summary": "Adjusts the orientation of the gradient. It can be used to rotate the gradient to any angle.",
+                    "Type": "Slider"
+                },
+                {
+                    "Name": "Scale",
+                    "Summary": "Adjusts the size of the gradient. A larger scale will stretch the gradient over a larger portion of the image, while a smaller scale will concentrate the gradient in a smaller area.",
+                    "Type": "Slider"
+                },
+                {
+                    "Name": "Opacity",
+                    "Summary": "Adjusts the transparency of the gradient fill. Higher opacity values make the gradient more opaque, overshadowing the original colors of the image, while lower opacity values make the gradient more transparent, allowing more of the original image to show through.",
+                    "Type": "Slider"
+                },
+                {
+                    "Name": "Offset",
+                    "Summary": "Shifts the gradient along the X and Y axes. Positive values move the gradient rightward or downward, while negative values move it leftward or upward.",
+                    "Type": "Slider"
+                }
+            ],
+            "Info": 
+            {
+                "Label": "Gradient Types:",
+                "Text": "Linear, Radial, Angle, Reflected and Diamond"
+            },
+            "Preview": 
+            {
+                "Original": "/img/previews/filters/gradient_fill_example_original.jpg",
+                "Adjusted": "/img/previews/filters/gradient_fill_example_adjusted.jpg"
+            }
+        }
+    }
+}

@@ -1,0 +1,29 @@
+{ 
+    "Info":
+    {
+        "DisplayTitle": "Sharpen",
+        "Category": "Filters",
+        "Description": "Enhances the details in the image by increasing the contrast of pixels along the edges of color and tonal areas. It is useful for making images appear more defined or 'in focus'."
+    },
+    "Content": 
+    {
+        "Key": "Modificator",
+        "Data": 
+        {
+            "Path": "Filter / Sharpen / Sharpen",
+            "Properties": 
+            [
+                {
+                    "Name": "Factor",
+                    "Summary": "Adjusts the intensity of the sharpening effect. A higher factor value increases the contrast along edges, making the details appear more pronounced, while a lower value applies a subtler sharpening effect.",
+                    "Type": "Slider"
+                }
+            ],
+            "Preview": 
+            {
+                "Original": "/img/previews/filters/sharpen_example_original.jpg",
+                "Adjusted": "/img/previews/filters/sharpen_example_adjusted.jpg"
+            }
+        }
+    }
+}

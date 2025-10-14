@@ -1,0 +1,12 @@
+{ 
+    "Info":
+    {
+        "DisplayTitle": "Brush Settings",
+        "Category": "Resources",
+        "Description": "Pixel Harmony offers extensive brush settings options. Once you have created a brand new brush or you wish to edit the existing brushes settings, you can do so by going to the <b>'Brush Creator'</b> tool, selecting the brush you wish to edit via the browse menu and press on the <b>'Brush Settings'</b> tab."
+    },
+    "Content": 
+    {
+        "Key": "BrushSettings"
+    }
+}

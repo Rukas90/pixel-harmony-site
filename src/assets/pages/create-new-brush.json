@@ -1,0 +1,12 @@
+{ 
+    "Info":
+    {
+        "DisplayTitle": "Create new Brushes",
+        "Category": "Resources",
+        "Description": "Creating a new brush in Pixel Harmony can be done with just few simple steps."
+    },
+    "Content": 
+    {
+        "Key": "CreateBrushes"
+    }
+}

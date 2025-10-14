@@ -1,0 +1,39 @@
+{ 
+    "Info":
+    {
+        "DisplayTitle": "Noise Distort",
+        "Category": "Filters",
+        "Description": "Adds a distortion to the image based on a noise pattern, creating a warping or rippling effect.<br>It's a useful tool for creating artistic effects or mimicking certain natural phenomena like heat haze or underwater distortion."
+    },
+    "Content": 
+    {
+        "Key": "Modificator",
+        "Data": 
+        {
+            "Path": "Filter / Distortion / Noise",
+            "Properties": 
+            [
+                {
+                    "Name": "Scale",
+                    "Summary": "Controls the size of the noise pattern used for the distortion. A larger scale will produce broader, larger distortions, while a smaller scale results in finer, smaller distortions.",
+                    "Type": "Slider"
+                },
+                {
+                    "Name": "Strength",
+                    "Summary": "Adjusts the intensity of the distortion. A higher strength value amplifies the distortion effect, while a lower value makes the distortion more subtle.",
+                    "Type": "Slider"
+                },
+                {
+                    "Name": "Confined",
+                    "Summary": "Confines the distortion effect to the borders of the image, preventing it from spilling over the edge.",
+                    "Type": "Toggle"
+                }
+            ],
+            "Preview": 
+            {
+                "Original": "/img/previews/filters/noise_distort_example_original.jpg",
+                "Adjusted": "/img/previews/filters/noise_distort_example_adjusted.jpg"
+            }
+        }
+    }
+}

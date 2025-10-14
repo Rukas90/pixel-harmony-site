@@ -1,0 +1,44 @@
+{ 
+    "Info":
+    {
+        "DisplayTitle": "Channel Clamp",
+        "Category": "Adjustments",
+        "Description": "This adjustment allows you to limit the intensity of individual color channels (Red, Green, Blue) and the Alpha channel in your image. It's particularly useful for controlling color levels and transparency."
+    },
+    "Content": 
+    {
+        "Key": "Modificator",
+        "Data": 
+        {
+            "Path": "Image / Adjustments / Color / Channel Clamp",
+            "Properties":
+            [
+                {
+                    "Name": "Red Channel",
+                    "Summary": "This setting controls the maximum and minimum intensity of red hues in your image. Increase the values to intensify the red, or decrease them to tone down the red and increase cyan hues.",
+                    "Type": "Range"
+                },
+                {
+                    "Name": "Green Channel",
+                    "Summary": "Adjusts the range of intensity for the green hues in your image. Higher values will enhance the green, while lower values will decrease the green and introduce more magenta.",
+                    "Type": "Range"
+                },
+                {
+                    "Name": "Blue Channel",
+                    "Summary": "Modifies the intensity range for the blue hues in your image. Adjusting this value upward will add more blue, while decreasing it will reduce the blue and introduce more yellow.",
+                    "Type": "Range"
+                },
+                {
+                    "Name": "Alpha Channel",
+                    "Summary": "This parameter controls the transparency level of your image. Increasing the range will make the image more opaque, whereas decreasing it will make the image more transparent.",
+                    "Type": "Range"
+                }
+            ],
+            "Preview": 
+            {
+                "Original": "/img/previews/adjustments/channel_clamp_example_original.jpg",
+                "Adjusted": "/img/previews/adjustments/channel_clamp_example_adjusted.jpg"
+            }
+        }
+    }
+}

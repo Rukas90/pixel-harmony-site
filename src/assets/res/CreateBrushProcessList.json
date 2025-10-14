@@ -1,0 +1,38 @@
+[
+    {
+        "Text": "Open Pixel Harmony."
+    },
+    {
+        "Text": "Create a new canvas.",
+        "Children": 
+        [
+            {
+                "Text": "The canvas size should be a power of two, ideally not exceeding 512x512."
+            },
+            {
+                "Text": "The background color should be set to black by default. The brush alpha mask is generated using black and white brush values, where white represents fully opaque and black represents fully transparent."
+            }
+        ]
+    },
+    {
+        "Text": "Press 'Create' to finalize the new canvas."
+    },
+    {
+        "Text": "Create a new empty pixel layer."
+    },
+    {
+        "Text": "Select the 'Brush Tool'."
+    },
+    {
+        "Text": "Choose a white color."
+    },
+    {
+        "Text": "Create your brush mask on the canvas. Alternatively, you can import a pre-existing black and white mask."
+    },
+    {
+        "Text": "Once the mask is ready, go to 'Edit' > 'Define' > 'Define Brush' to finalize the brush creation."
+    },
+    {
+        "Text": "The new brush is now ready for use."
+    }
+]

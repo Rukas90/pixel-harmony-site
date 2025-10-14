@@ -1,0 +1,54 @@
+{ 
+    "Info":
+    {
+        "DisplayTitle": "Replace Color",
+        "Category": "Adjustments",
+        "Description": "Allows to match and replace a color in an image."
+    },
+    "Content": 
+    {
+        "Key": "Modificator",
+        "Data": 
+        {
+            "Path": "Image / Adjustments / Replace Color",
+            "Properties":
+            [
+                {
+                    "Name": "Target Color",
+                    "Summary": "Specifies the color in the image to replace.",
+                    "Type": "Color"
+                },
+                {
+                    "Name": "Tolerance",
+                    "Summary": "Adjusts how much variation from the target color will be included in the selection.<br>A lower value will only select colors very similar to the target color, while a higher value will include a broader range of colors.",
+                    "Type": "Slider"
+                },
+                {
+                    "Name": "Spread",
+                    "Summary": "Softens the edges of the color selection, resulting in a more natural transition between the replaced color and the surrounding colors.",
+                    "Type": "Slider"
+                },
+                {
+                    "Name": "Hue",
+                    "Summary": "Modifies the hue of the replacement color.",
+                    "Type": "Slider"
+                },
+                {
+                    "Name": "Saturation",
+                    "Summary": "Adjusts the intensity of the replacement color.",
+                    "Type": "Slider"
+                },
+                {
+                    "Name": "Brightness",
+                    "Summary": "Changes the brightness of the replacement color.",
+                    "Type": "Slider"
+                }
+            ],
+            "Preview": 
+            {
+                "Original": "/img/previews/adjustments/replace_color_example_original.jpg",
+                "Adjusted": "/img/previews/adjustments/replace_color_example_adjusted.jpg"
+            }
+        }
+    }
+}

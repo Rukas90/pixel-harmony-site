@@ -1,0 +1,21 @@
+{ 
+    "Info":
+    {
+        "DisplayTitle": "Mirror",
+        "Category": "Adjustments",
+        "Description": "Mirrors the image either horizontally or vertically."
+    },
+    "Content": 
+    {
+        "Key": "Modificator",
+        "Data": 
+        {
+            "Path": "Image / Adjustments / Mirror (Horizontal / Vertical)",
+            "Preview": 
+            {
+                "Original": "/img/previews/adjustments/mirror_example_original.jpg",
+                "Adjusted": "/img/previews/adjustments/mirror_example_adjusted.jpg"
+            }
+        }
+    }
+}

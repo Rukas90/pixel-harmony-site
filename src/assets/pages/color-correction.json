@@ -1,0 +1,39 @@
+{ 
+    "Info":
+    {
+        "DisplayTitle": "Color Correction",
+        "Category": "Adjustments",
+        "Description": "Gives control over the color balance in the shadows, mid-tones, and highlights of the image. It enables fine-tuning of each of the Red, Green, and Blue color channels separately within each of these ranges, providing a way to correct color casts and enhance the overall color effect."
+    },
+    "Content": 
+    {
+        "Key": "Modificator",
+        "Data": 
+        {
+            "Path": "Image / Adjustments / Color / Color Correction",
+            "Properties":
+            [
+                {
+                    "Name": "Shadows",
+                    "Summary": "Adjusts the color balance in the darkest areas of your image. Changing these values for the Red, Green, and Blue channels can help correct color casts in shadows and enhance the color depth.",
+                    "Type": "Slider"
+                },
+                {
+                    "Name": "Midtones",
+                    "Summary": "Modifies the color balance in the mid-range light areas of your image. Fine-tuning these values for the Red, Green, and Blue channels can aid in achieving a balanced, natural color for the overall image.",
+                    "Type": "Slider"
+                },
+                {
+                    "Name": "Highlights",
+                    "Summary": "Adjusts the color balance in the brightest areas of your image. Manipulating these values for the Red, Green, and Blue channels allows you to manage color casts in highlights and ensure the brighter areas of your image are vibrant and not washed out.",
+                    "Type": "Slider"
+                }
+            ],
+            "Preview": 
+            {
+                "Original": "/img/previews/adjustments/color_correction_example_original.jpg",
+                "Adjusted": "/img/previews/adjustments/color_correction_example_adjusted.jpg"
+            }
+        }
+    }
+}

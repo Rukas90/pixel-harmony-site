@@ -1,0 +1,65 @@
+{ 
+    "Info":
+    {
+        "DisplayTitle": "Smoothness Map",
+        "Label": "Expermental Feature",
+        "Category": "Filters",
+        "Description": "Generates a smoothness map from the input image. A smoothness map is commonly used in 3D graphics to determine the shininess or glossiness of a surface. Brighter values indicate smoother, shinier areas, while darker values represent rougher, more diffuse regions."
+    },
+    "Content": 
+    {
+        "Key": "Modificator",
+        "Data": 
+        {
+            "Path": "Filter / Generation / Expermental / Smoothness Map",
+            "Properties": 
+            [
+                {
+                    "Name": "Invert",
+                    "Summary": "Inverts the bright and dark values in the smoothness map when toggled on, making bright areas dark and vice versa.",
+                    "Type": "Toggle"
+                },
+                {
+                    "Name": "Base Smoothness",
+                    "Summary": "Sets the overall smoothness level for the image. Higher values create a smoother, shinier surface, while lower values result in a rougher, more diffuse appearance.",
+                    "Type": "Slider"
+                },
+                {
+                    "Name": "Smoothness Multiplier",
+                    "Summary": "Adjusts the range of smoothness values. Higher values increase the contrast between smooth and rough areas, while lower values reduce this contrast.",
+                    "Type": "Slider"
+                },
+                {
+                    "Name": "High-Pass Radius",
+                    "Summary": "Determines the size of details targeted by the high-pass filter. A higher radius affects larger details, while a lower radius targets smaller details.",
+                    "Type": "Slider"
+                },
+                {
+                    "Name": "High-Pass Strength",
+                    "Summary": "Controls the intensity of the high-pass filter effect. Higher values make details more prominent, while lower values lessen the emphasis.",
+                    "Type": "Slider"
+                },
+                {
+                    "Name": "Bias",
+                    "Summary": "Shifts the overall brightness of the smoothness map. Increasing the bias results in a brighter, shinier appearance, while decreasing it makes the surface more diffuse.",
+                    "Type": "Slider"
+                },
+                {
+                    "Name": "Contrast",
+                    "Summary": "Enhances or reduces the differences between bright and dark areas in the smoothness map. Higher values create more variation in shininess, while lower values produce a more uniform appearance.",
+                    "Type": "Slider"
+                }
+            ],
+            "Info": 
+            {
+                "Label": "Recommendation:",
+                "Text": "For optimal results, it is recommended to first generate a height map from the base image and then use this height map as the source to generate the smoothness map."
+            },
+            "Preview": 
+            {
+                "Original": "/img/previews/filters/albedo_map_example_original.jpg",
+                "Adjusted": "/img/previews/filters/smoothness_map_example_adjusted.jpg"
+            }
+        }
+    }
+}

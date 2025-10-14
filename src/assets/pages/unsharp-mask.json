@@ -1,0 +1,39 @@
+{ 
+    "Info":
+    {
+        "DisplayTitle": "Unsharp Mask",
+        "Category": "Filters",
+        "Description": "Sharpens the image by enhancing the contrast of edges. Despite its name, the unsharp mask is commonly used for sharpening; it works by subtracting a blurred (or 'unsharp') version of the image from the original image to create the illusion of sharper edges."
+    },
+    "Content": 
+    {
+        "Key": "Modificator",
+        "Data": 
+        {
+            "Path": "Filter / Sharpen / Unsharp Mask",
+            "Properties": 
+            [
+                {
+                    "Name": "Amount",
+                    "Summary": "Adjusts the intensity of the sharpening effect. Higher values make the details more pronounced, while lower values apply a subtler sharpening effect.",
+                    "Type": "Slider"
+                },
+                {
+                    "Name": "Radius",
+                    "Summary": "Determines the size of the area around each pixel that the filter considers when applying the sharpening effect. A larger radius results in a more pronounced effect on larger details, while a smaller radius sharpens finer details.",
+                    "Type": "Slider"
+                },
+                {
+                    "Name": "Threshold",
+                    "Summary": "Controls the minimum brightness change that will be sharpened. This means that low-contrast edge detail can be excluded from the sharpening process, preventing noise from being accentuated.<br>A higher threshold value excludes more areas from the sharpening effect, while a lower value allows more areas to be sharpened.",
+                    "Type": "Slider"
+                }
+            ],
+            "Preview": 
+            {
+                "Original": "/img/previews/filters/unsharp_mask_example_original.jpg",
+                "Adjusted": "/img/previews/filters/unsharp_mask_example_adjusted.jpg"
+            }
+        }
+    }
+}

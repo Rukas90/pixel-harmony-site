@@ -1,0 +1,34 @@
+{ 
+    "Info":
+    {
+        "DisplayTitle": "Brightness and Contrast",
+        "Category": "Adjustments",
+        "Description": "Adjusts the overall luminosity and the differences in light and dark areas within your image. It is particularly useful for correcting images that are too dim, overly bright, or lacking in color distinction."
+    },
+    "Content": 
+    {
+        "Key": "Modificator",
+        "Data": 
+        {
+            "Path": "Image / Adjustments / Brightness and Contrast",
+            "Properties":
+            [
+                {
+                    "Name": "Brightness",
+                    "Summary": "This property adjusts the overall lightness or darkness of the image.<br><br>Increasing the brightness makes the image appear lighter, whereas decreasing it will make the image appear darker.",
+                    "Type": "Slider"
+                },
+                {
+                    "Name": "Contrast",
+                    "Summary": "This setting modifies the difference between the darkest and lightest areas of your image.<br><br>Increasing the contrast makes the darks darker and the lights lighter, thus making the image more vibrant and the details more pronounced. Reducing contrast will make the colors appear more similar and the image will look more muted.",
+                    "Type": "Slider"
+                }
+            ],
+            "Preview": 
+            {
+                "Original": "/img/previews/adjustments/brightness_contrast_example_original.jpg",
+                "Adjusted": "/img/previews/adjustments/brightness_contrast_example_adjusted.jpg"
+            }
+        }
+    }
+}

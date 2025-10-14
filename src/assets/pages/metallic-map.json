@@ -1,0 +1,55 @@
+{ 
+    "Info":
+    {
+        "DisplayTitle": "Metallic Map",
+        "Label": "Expermental Feature",
+        "Category": "Filters",
+        "Description": "Generates a metallic map from the input image. A metallic map is utilized in 3D rendering to define areas that should appear metallic. White areas are interpreted as metallic, while black areas are considered non-metallic."
+    },
+    "Content": 
+    {
+        "Key": "Modificator",
+        "Data": 
+        {
+            "Path": "Filter / Generation / Expermental / Metallic Map",
+            "Properties": 
+            [
+                {
+                    "Name": "High-Pass Radius",
+                    "Summary": "Controls the size of the details targeted by the high-pass filter. A larger radius captures broader details, while a smaller radius focuses on finer details.",
+                    "Type": "Slider"
+                },
+                {
+                    "Name": "High-Pass Strength",
+                    "Summary": "Adjusts the influence of the high-pass filter on the map. Increasing the strength makes the targeted details more pronounced, while decreasing it results in subtler details.",
+                    "Type": "Slider"
+                },
+                {
+                    "Name": "Bias",
+                    "Summary": "Shifts the overall brightness of the metallic map. A higher bias increases brightness, making more areas appear metallic, while a lower bias darkens the map, reducing the metallic areas.",
+                    "Type": "Slider"
+                },
+                {
+                    "Name": "Contrast",
+                    "Summary": "Enhances or reduces the differences between metallic (bright) and non-metallic (dark) areas. A higher contrast creates a more distinct separation between metallic and non-metallic regions, while a lower contrast results in smoother transitions.",
+                    "Type": "Slider"
+                },
+                {
+                    "Name": "Levels",
+                    "Summary": "Adjusts the range of brightness values in the metallic map, allowing for fine-tuning the balance between metallic (white), non-metallic (black), and semi-metallic (gray) areas.",
+                    "Type": "Levels"
+                }
+            ],
+            "Info": 
+            {
+                "Label": "Recommendation:",
+                "Text": "For optimal results, it is recommended to first generate a height map from the base image and then use this height map as the source to generate the metallic map."
+            },
+            "Preview": 
+            {
+                "Original": "/img/previews/filters/albedo_2_map_example_original.jpg",
+                "Adjusted": "/img/previews/filters/metallic_map_example_adjusted.jpg"
+            }
+        }
+    }
+}

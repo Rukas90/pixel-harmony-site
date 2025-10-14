@@ -1,0 +1,34 @@
+{ 
+    "Info":
+    {
+        "DisplayTitle": "High Pass",
+        "Category": "Filters",
+        "Description": "Commonly used to highlight the fine details in an image or to prepare an image for sharpness editing. It works by allowing high-frequency content (smaller details) to pass through while blocking low-frequency content (larger, smooth areas)."
+    },
+    "Content": 
+    {
+        "Key": "Modificator",
+        "Data": 
+        {
+            "Path": "Filter / Blur / High Pass",
+            "Properties": 
+            [
+                {
+                    "Name": "Radius",
+                    "Summary": "Adjusts the size of the details that the filter targets. A smaller radius will emphasize finer details, while a larger radius will bring out larger details or edges.",
+                    "Type": "Slider"
+                },
+                {
+                    "Name": "Monochrome",
+                    "Summary": "Applies the High Pass filter only to the luminance of the image, resulting in a grayscale output that highlights the details in the image. If disabled, the filter is applied to each color channel, preserving the original colors while still emphasizing details.",
+                    "Type": "Slider"
+                }
+            ],
+            "Preview": 
+            {
+                "Original": "/img/previews/filters/high_pass_example_original.jpg",
+                "Adjusted": "/img/previews/filters/high_pass_example_adjusted.jpg"
+            }
+        }
+    }
+}

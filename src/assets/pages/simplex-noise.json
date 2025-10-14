@@ -1,0 +1,39 @@
+{ 
+    "Info":
+    {
+        "DisplayTitle": "Simplex Noise",
+        "Category": "Filters",
+        "Description": "Generates Simplex noise, which is an improved form of Perlin noise. Simplex noise produces a smoother and less computationally intensive noise pattern, with less visible grid-like artifacts."
+    },
+    "Content": 
+    {
+        "Key": "Modificator",
+        "Data": 
+        {
+            "Path": "Filter / Render / Noise / Simplex Noise",
+            "Properties": 
+            [
+                {
+                    "Name": "Octaves",
+                    "Summary": "Controls the number of layers of noise that are generated. Each additional octave adds a layer of noise at half the size of the previous one, which creates a more complex and detailed noise pattern. A higher number of octaves results in more detail and complexity, but may also be more computationally intensive.",
+                    "Type": "Slider"
+                },
+                {
+                    "Name": "Scale",
+                    "Summary": "Adjusts the size of the noise pattern. A larger scale increases the size of the features in the noise, creating fewer but larger areas of color. A smaller scale decreases the feature size, resulting in a more detailed noise pattern with more, smaller areas of color.",
+                    "Type": "Slider"
+                },
+                {
+                    "Name": "Gradient",
+                    "Summary": "Selects the colors that will be used in the Simplex noise. The gradient is interpolated over the grayscale noise values. Each point in the noise pattern is assigned a color from the gradient based on its value, with low values taking colors from one end of the gradient and high values from the other end.",
+                    "Type": "Gradient"
+                }
+            ],
+            "Preview": 
+            {
+                "Original": "/img/previews/filters/simplex_noise_example_1.jpg",
+                "Adjusted": "/img/previews/filters/simplex_noise_example_2.jpg"
+            }
+        }
+    }
+}

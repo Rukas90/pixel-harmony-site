@@ -1,0 +1,16 @@
+RewriteEngine On
+RewriteBase /
+
+# Redirect /documentation to /docs
+RewriteRule ^documentation/?$ /docs [R=301,L]
+
+# Redirect /documentation.html to /docs
+RewriteRule ^documentation.html/?$ /docs [R=301,L]
+
+# Redirect /roadmap.html to /roadmap
+RewriteRule ^roadmap.html/?$ /roadmap [R=301,L]
+
+RewriteRule ^index\.html$ - [L]
+RewriteCond %{REQUEST_FILENAME} !-f
+RewriteCond %{REQUEST_FILENAME} !-d
+RewriteRule . /index.html [L]

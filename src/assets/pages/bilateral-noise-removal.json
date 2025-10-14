@@ -1,0 +1,39 @@
+{ 
+    "Info":
+    {
+        "DisplayTitle": "Bilateral Noise Removal",
+        "Category": "Filters",
+        "Description": "Designed to reduce noise in the image while preserving sharp edges. It works by replacing each pixel with a weighted average of its neighbors. The weights depend on both the spatial distance and the color difference, which helps to keep the edges sharp while smoothing out noise."
+    },
+    "Content": 
+    {
+        "Key": "Modificator",
+        "Data": 
+        {
+            "Path": "Filter / Noise Removal / Bilateral",
+            "Properties": 
+            [
+                {
+                    "Name": "Sigma",
+                    "Summary": "Adjusts the size of the area around each pixel that the filter considers when applying the noise removal effect. A larger sigma smooths over a larger area, which can reduce noise but may also blur fine details. A smaller sigma preserves more detail, but may not remove as much noise.",
+                    "Type": "Slider"
+                },
+                {
+                    "Name": "Threshold",
+                    "Summary": "Determines the color difference required for a pixel to be included in the noise removal calculation. A higher threshold means that only pixels that are very similar in color to the current pixel are included, which can preserve sharp edges but may not remove as much noise. A lower threshold includes more pixels, which can remove more noise but might also blur edges.",
+                    "Type": "Slider"
+                },
+                {
+                    "Name": "Intensity",
+                    "Summary": "Adjusts the overall intensity of the noise removal. A higher intensity results in more noise being removed, while a lower intensity preserves more of the original image detail.",
+                    "Type": "Slider"
+                }
+            ],
+            "Preview": 
+            {
+                "Original": "/img/previews/filters/bilateral_noise_removal_example_original.jpg",
+                "Adjusted": "/img/previews/filters/bilateral_noise_removal_example_adjusted.jpg"
+            }
+        }
+    }
+}

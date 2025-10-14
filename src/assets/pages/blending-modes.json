@@ -1,0 +1,12 @@
+{ 
+    "Info":
+    {
+        "DisplayTitle": "Blending Modes",
+        "Category": "Rendering",
+        "Description": "The blending mode determines how two layers are blended with each other."
+    },
+    "Content": 
+    {
+        "Key": "BlendingModes"
+    }
+}

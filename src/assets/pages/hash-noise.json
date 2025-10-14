@@ -1,0 +1,44 @@
+{ 
+    "Info":
+    {
+        "DisplayTitle": "Hash Noise",
+        "Category": "Filters",
+        "Description": "Adds random noise to the image. This noise is generated using a hash function, creating a unique and random pattern of pixels. It can be used to add a texture or grain to an image, or to introduce randomness in graphic designs."
+    },
+    "Content": 
+    {
+        "Key": "Modificator",
+        "Data": 
+        {
+            "Path": "Filter / Render / Noise / Hash Noise",
+            "Properties": 
+            [
+                {
+                    "Name": "Amount",
+                    "Summary": "Controls the overall intensity of the noise added to the image. Sliding towards a higher value increases the noise amount, making it more pronounced, while a lower value adds a subtle noise effect.",
+                    "Type": "Slider"
+                },
+                {
+                    "Name": "Luminance",
+                    "Summary": "Adjusts the brightness of the noise. A higher value will create brighter noise pixels, while a lower value results in darker noise pixels.",
+                    "Type": "Slider"
+                },
+                {
+                    "Name": "Monochromatic",
+                    "Summary": "Determines whether the noise added is monochromatic (black and white) or colored.",
+                    "Type": "Toggle"
+                },
+                {
+                    "Name": "Seed",
+                    "Summary": "Alters the random seed used to generate the noise. Changing the value will produce a different pattern of noise, but the overall appearance (determined by the other settings) will remain the same.",
+                    "Type": "Slider"
+                }
+            ],
+            "Preview": 
+            {
+                "Original": "/img/previews/filters/hash_noise_example_original.jpg",
+                "Adjusted": "/img/previews/filters/hash_noise_example_adjusted.jpg"
+            }
+        }
+    }
+}

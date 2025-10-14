@@ -1,0 +1,12 @@
+{ 
+    "Info":
+    {
+        "DisplayTitle": "Color Galleries",
+        "Category": "Resources",
+        "Description": "Pixel Harmony comes with an intergrated color gallery system. It contains color tables that can be quickly sampled and used when painting."
+    },
+    "Content": 
+    {
+        "Key": "ColorGallery"
+    }
+}

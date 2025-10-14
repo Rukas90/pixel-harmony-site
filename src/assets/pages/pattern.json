@@ -1,0 +1,64 @@
+{ 
+    "Info":
+    {
+        "DisplayTitle": "Pattern",
+        "Category": "Filters",
+        "Description": "Overlays a chosen pattern onto the image. Can be used to add texture, design elements, or other effects. The pattern can be created from any image, which allows for a high degree of customization."
+    },
+    "Content": 
+    {
+        "Key": "Modificator",
+        "Data": 
+        {
+            "Path": "Filter / Render / Pattern",
+            "Properties": 
+            [
+                {
+                    "Name": "Preserve Luminance",
+                    "Summary": "Maintains the original brightness levels of the image underneath the pattern fill. If disabled, the luminance of the image will be affected by the pattern fill.",
+                    "Type": "Toggle"
+                },
+                {
+                    "Name": "Pattern Image",
+                    "Summary": "An image that will be used as the pattern overlay. It can be selected from the resources via the browse menu.",
+                    "Type": "Pattern"
+                },
+                {
+                    "Name": "Scale",
+                    "Summary": "Adjusts the size of the pattern. A larger scale enlarges the pattern, making the individual elements bigger, while a smaller scale reduces the pattern, making the elements smaller.",
+                    "Type": "Slider"
+                },
+                {
+                    "Name": "Angle",
+                    "Summary": "Rotates the pattern overlay.",
+                    "Type": "Slider"
+                },
+                {
+                    "Name": "OffsetX",
+                    "Summary": "Adjusts the horizontal position of the pattern. Positive values move the pattern to the right, while negative values move it to the left.",
+                    "Type": "Slider"
+                },
+                {
+                    "Name": "OffsetY",
+                    "Summary": "Adjusts the vertical position of the pattern. Positive values move the pattern down, while negative values move it up.",
+                    "Type": "Slider"
+                },
+                {
+                    "Name": "Blend Mode",
+                    "Summary": "Determines how the pattern blends with the original layer pixels. Different blend modes will produce different effects, from subtle texture overlays to dramatic color shifts.",
+                    "Type": "Enum"
+                },
+                {
+                    "Name": "Opacity",
+                    "Summary": "Adjusts the transparency of the pattern fill. Higher opacity values make the pattern more opaque, overpowering the original layer colors, while lower opacity values make the pattern more transparent, allowing more of the original layer pixels to show through.",
+                    "Type": "Slider"
+                }
+            ],
+            "Preview": 
+            {
+                "Original": "/img/previews/filters/pattern_example_original.jpg",
+                "Adjusted": "/img/previews/filters/pattern_example_adjusted.jpg"
+            }
+        }
+    }
+}

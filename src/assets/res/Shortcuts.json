@@ -1,0 +1,55 @@
+[
+    {
+      "label": "Save Project",
+      "value": "ctrl / command (macOS) + S"
+    },
+    {
+      "label": "New Project",
+      "value": "ctrl / command (macOS) + N"
+    },
+    {
+      "label": "Undo",
+      "value": "ctrl / command (macOS) + Z"
+    },
+    {
+      "label": "Redo",
+      "value": "ctrl / command (macOS) + Y"
+    },
+    {
+      "label": "Zoom In",
+      "value": "ctrl / command (macOS) + KeypadPlus"
+    },
+    {
+      "label": "Zoom Out",
+      "value": "ctrl / command (macOS) + KeypadMinus"
+    },
+    {
+      "label": "Zoom to Fit",
+      "value": "ctrl / command (macOS) + Keypad0 / Alpha0"
+    },
+    {
+      "label": "Zoom to Fill",
+      "value": "ctrl / command (macOS) + Keypad1 / Alpha1"
+    },
+    {
+      "label": "Set Mask Edit Mode",
+      "value": "ctrl / command (macOS) + M"
+    },
+    {
+      "label": "Set Content Edit Mode",
+      "value": "ctrl / command (macOS) + L"
+    },
+    {
+      "label": "Swap Color",
+      "value": "X"
+    },
+    {
+      "label": "Increase Brush Size",
+      "value": "Right Bracket"
+    },
+    {
+      "label": "Decrease Brush Size",
+      "value": "Left Bracket"
+    }
+]
+  

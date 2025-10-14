@@ -1,0 +1,49 @@
+{ 
+    "Info":
+    {
+        "DisplayTitle": "Levels",
+        "Category": "Adjustments",
+        "Description": "Enables to control the tonal range of the image by adjusting the black point, white point, and midtones (gamma). In addition, it allows to set the output levels for the black and white points, providing advanced contrast control."
+    },
+    "Content": 
+    {
+        "Key": "Modificator",
+        "Data": 
+        {
+            "Path": "Image / Adjustments / Levels",
+            "Properties":
+            [
+                {
+                    "Name": "Black",
+                    "Summary": "This adjusts the black point in your image. Increasing the value will darken the shadows by making darker tones appear black, whereas decreasing it will lighten the shadows.",
+                    "Type": "Slider"
+                },
+                {
+                    "Name": "Gamma",
+                    "Summary": "This setting modifies the midtones in your image. Increasing the gamma will brighten the midtones, while decreasing it will darken them.",
+                    "Type": "Slider"
+                },
+                {
+                    "Name": "White",
+                    "Summary": "This changes the white point in your image. Raising this value will brighten the highlights by making lighter tones appear white, while lowering it will dim the highlights..",
+                    "Type": "Slider"
+                },
+                {
+                    "Name": "Output Black",
+                    "Summary": "This parameter adjusts the brightness level of the black point in your image. Increasing the value will lighten the darkest areas, while decreasing it will darken these areas.",
+                    "Type": "Slider"
+                },
+                {
+                    "Name": "Output White",
+                    "Summary": "This setting modifies the brightness level of the white point in your image. Raising the value will intensify the brightness of the lightest areas, while lowering it will reduce the brightness.",
+                    "Type": "Slider"
+                }
+            ],
+            "Preview": 
+            {
+                "Original": "/img/previews/adjustments/levels_example_original.jpg",
+                "Adjusted": "/img/previews/adjustments/levels_example_adjusted.jpg"
+            }
+        }
+    }
+}

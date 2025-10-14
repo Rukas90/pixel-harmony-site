@@ -1,0 +1,12 @@
+{ 
+    "Info":
+    {
+        "DisplayTitle": "Painting Tools",
+        "Category": "Painting",
+        "Description": "The brush tool is one of the fundamental painting tools in Pixel Harmony."
+    },
+    "Content": 
+    {
+        "Key": "PaintingTools"
+    }
+}

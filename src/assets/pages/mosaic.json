@@ -1,0 +1,29 @@
+{ 
+    "Info":
+    {
+        "DisplayTitle": "Mosaic",
+        "Category": "Filters",
+        "Description": "Transforms the image into a mosaic-like pattern, replacing groups of pixels with a single average color. It's a useful tool for creating stylized, abstract renditions of the images or for obscuring details for privacy purposes."
+    },
+    "Content": 
+    {
+        "Key": "Modificator",
+        "Data": 
+        {
+            "Path": "Filter / Pixelate / Mosaic",
+            "Properties": 
+            [
+                {
+                    "Name": "CellSize",
+                    "Summary": "Adjusts the size of the individual cells in the mosaic. A larger cell size results in a more abstract and pixelated image, while a smaller cell size retains more detail, creating a more recognizable, yet still stylized image.",
+                    "Type": "Slider"
+                }
+            ],
+            "Preview": 
+            {
+                "Original": "/img/previews/filters/mosaic_example_original.jpg",
+                "Adjusted": "/img/previews/filters/mosaic_example_adjusted.jpg"
+            }
+        }
+    }
+}

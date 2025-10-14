@@ -1,0 +1,35 @@
+{ 
+    "Info":
+    {
+        "DisplayTitle": "Gaussian Blur",
+        "Category": "Filters",
+        "Description": "Applies a smooth, natural-looking blur effect to the image. It works by replacing each pixel with a weighted average of its surrounding pixels, with weights given by a Gaussian function (a bell curve)."
+    },
+    "Content": 
+    {
+        "Key": "Modificator",
+        "Data": 
+        {
+            "Path": "Filter / Blur / Gaussian Blur",
+            "Properties": 
+            [
+                {
+                    
+                    "Name": "Radius",
+                    "Summary": "Adjusts the extent of the blur effect. A larger radius results in a more significant blur, while a smaller radius creates a subtler blur.",
+                    "Type": "Slider"
+                },
+                {
+                    "Name": "Confined",
+                    "Summary": "Confines the blur to the borders of the image.",
+                    "Type": "Toggle"
+                }
+            ],
+            "Preview": 
+            {
+                "Original": "/img/previews/filters/gaussian_blur_example_original.jpg",
+                "Adjusted": "/img/previews/filters/gaussian_blur_example_adjusted.jpg"
+            }
+        }
+    }
+}

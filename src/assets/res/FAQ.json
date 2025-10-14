@@ -1,0 +1,23 @@
+[
+    {
+        "label": "How much does Pixel Harmony cost?",
+        "content": "Pixel Harmony is available on the AssetStore for US$40."
+    },
+    {
+        "label": "Does it support both Linear and Gamma color spaces?",
+        "content": "Yes. Pixel Harmony automatically handles all the conversions when in Linear color space."
+    },
+    {
+        "label": "What formats does Pixel Harmony support?",
+        "content": "Currently, Pixel Harmony supports PNG, JPG/JPEG, and TGA. However, other formats are planned to be supported in the future, one being TIFF."
+    },
+    {
+        "label": "How is Pixel Harmony optimized?",
+        "content": "Pixel Harmony is GPU accelerated, meaning that all processes are handled in GPU via shader. Some processes that are handled in the CPU utilize Unity's job system in combination with the Burst compiler. <br /><br /> That being said, there are mayor optimization techniques in the works that are planned to be integrated to Pixel Harmony rendering system in the future."
+    },
+    {
+        "label": "What are the system requirements?",
+        "content": "The system requirements depend on various factors. One mayor factor is the size of the canvas. Currently, when you make a change the entire canvas is redrawn. The larger the canvas resolution, the more processing power it requires. Generally you can use Pixel Harmony even on the lower-end setups. It all depends on the project you are working on.<br /><br /> Pixel Harmony allows to tweak rendering and other type of settings in preferences. Changing these settings can help improve the overall performance.<br /> Some of these settings are the update delay and the history count, which controls the total amount of undo history records available."
+    }
+
+]

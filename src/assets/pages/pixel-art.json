@@ -1,0 +1,12 @@
+{ 
+    "Info":
+    {
+        "DisplayTitle": "Pixel Art",
+        "Category": "Painting",
+        "Description": "Pixel Harmony is well suited for doing pixel-perfect pixel art projects."
+    },
+    "Content": 
+    {
+        "Key": "PixelArt"
+    }
+}

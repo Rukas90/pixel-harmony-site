@@ -1,0 +1,49 @@
+{ 
+    "Info":
+    {
+        "DisplayTitle": "Color Balance",
+        "Category": "Adjustments",
+        "Description": "This tool adjusts the intensity and balance of colors in your image. It allows for correction of color cast and enhances the overall tone of your image."
+    },
+    "Content": 
+    {
+        "Key": "Modificator",
+        "Data": 
+        {
+            "Path": "Image / Adjustments / Color / Color Balance",
+            "Properties":
+            [
+                {
+                    "Name": "Red Channel",
+                    "Summary": "Adjusts the intensity of red hues in your image. Slide towards the positive side to add more red, or towards the negative to reduce red, which will increase cyan.",
+                    "Type": "Slider"
+                },
+                {
+                    "Name": "Green Channel",
+                    "Summary": "Modifies the intensity of green hues in your image. Increasing this value adds more green, while decreasing it reduces green, and thus introduces more magenta.",
+                    "Type": "Slider"
+                },
+                {
+                    "Name": "Blue Channel",
+                    "Summary": "Changes the intensity of blue hues in your image. A higher value adds more blue, whereas a lower value reduces blue and increases yellow.",
+                    "Type": "Slider"
+                },
+                {
+                    "Name": "Temperature",
+                    "Summary": "Adjusts the overall color temperature of the image. Increasing the temperature will make the image appear warmer (more yellow), while decreasing it will make the image look cooler (more blue).",
+                    "Type": "Slider"
+                },
+                {
+                    "Name": "Tint",
+                    "Summary": "This setting modifies the global green-magenta balance in the image. Slide towards the positive to add more green, or towards the negative to add more magenta.",
+                    "Type": "Slider"
+                }
+            ],
+            "Preview": 
+            {
+                "Original": "/img/previews/adjustments/color_balance_example_original.jpg",
+                "Adjusted": "/img/previews/adjustments/color_balance_example_adjusted.jpg"
+            }
+        }
+    }
+}

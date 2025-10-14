@@ -1,0 +1,29 @@
+{ 
+    "Info":
+    {
+        "DisplayTitle": "Exposure",
+        "Category": "Adjustments",
+        "Description": "Allows to simulate the effect of changing the exposure setting on a camera. By adjusting the factor value the entire image lightens or darkens, similar to how it would look if it were taken with more or less exposure."
+    },
+    "Content": 
+    {
+        "Key": "Modificator",
+        "Data": 
+        {
+            "Path": "Image / Adjustments / Exposure",
+            "Properties":
+            [
+                {
+                    "Name": "Exposure",
+                    "Summary": "Adjusts the overall brightness of the image. Increasing the factor value will brighten the image, as if it were overexposed, while decreasing the factor will darken the image, like underexposure in photography.<br><br>The factor value typically ranges from a lower limit (for underexposure) through 1 (which maintains the current exposure), to an upper limit (for overexposure).",
+                    "Type": "Slider"
+                }
+            ],
+            "Preview": 
+            {
+                "Original": "/img/previews/adjustments/exposure_example_original.jpg",
+                "Adjusted": "/img/previews/adjustments/exposure_example_adjusted.jpg"
+            }
+        }
+    }
+}

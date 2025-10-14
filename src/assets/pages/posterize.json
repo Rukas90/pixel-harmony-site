@@ -1,0 +1,29 @@
+{ 
+    "Info":
+    {
+        "DisplayTitle": "Posterize",
+        "Category": "Adjustments",
+        "Description": "Reduces the number of distinct colors or tones in the image. The result is a more stylized, abstract look similar to a poster or pop art, hence the name 'posterize'."
+    },
+    "Content": 
+    {
+        "Key": "Modificator",
+        "Data": 
+        {
+            "Path": "Image / Adjustments / Posterize",
+            "Properties":
+            [
+                {
+                    "Name": "Level",
+                    "Summary": "Adjusts the number of color levels for each channel in the image. A lower value will decrease the number of tones, leading to a more stark, graphic effect. Conversely, a higher value increases the number of tones, resulting in a more subtle posterization effect.",
+                    "Type": "Slider"
+                }
+            ],
+            "Preview": 
+            {
+                "Original": "/img/previews/adjustments/posterize_example_original.jpg",
+                "Adjusted": "/img/previews/adjustments/posterize_example_adjusted.jpg"
+            }
+        }
+    }
+}

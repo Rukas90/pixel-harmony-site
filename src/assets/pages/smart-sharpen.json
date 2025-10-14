@@ -1,0 +1,49 @@
+{ 
+    "Info":
+    {
+        "DisplayTitle": "Smart Sharpen",
+        "Category": "Filters",
+        "Description": "An advanced sharpening filter that enhances the details in the image with greater control over different tonal areas (shadows, midtones, and highlights). This allows for more specific and refined sharpening effects."
+    },
+    "Content": 
+    {
+        "Key": "Modificator",
+        "Data": 
+        {
+            "Path": "Filter / Sharpen / Smart Sharpen",
+            "Properties": 
+            [
+                {
+                    "Name": "Amount",
+                    "Summary": "Adjusts the intensity of the sharpening effect in either the shadow or highlight areas of the image. Higher values increase the detail enhancement.",
+                    "Type": "Slider"
+                },
+                {
+                    "Name": "Radius",
+                    "Summary": "Modifies the size of the area around each pixel in either the shadows or highlights that the filter considers when applying the sharpening effect.",
+                    "Type": "Slider"
+                },
+                {
+                    "Name": "TonalWidth",
+                    "Summary": "Determines the range of tones in the image that are considered either 'shadows' or 'highlights' for the purposes of the filter.",
+                    "Type": "Slider"
+                },
+                {
+                    "Name": "FadeAmount",
+                    "Summary": "Adjusts the degree to which the sharpening effect in either the shadows or highlights blends into the rest of the image.",
+                    "Type": "Slider"
+                },
+                {
+                    "Name": "Iterations",
+                    "Summary": "Sets the number of times the sharpening operation is applied. More iterations can lead to a more pronounced effect, but can also introduce artifacts if set too high.",
+                    "Type": "Slider"
+                }
+            ],
+            "Preview": 
+            {
+                "Original": "/img/previews/filters/smart_sharpen_example_original.jpg",
+                "Adjusted": "/img/previews/filters/smart_sharpen_example_adjusted.jpg"
+            }
+        }
+    }
+}

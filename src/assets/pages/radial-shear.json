@@ -1,0 +1,29 @@
+{ 
+    "Info":
+    {
+        "DisplayTitle": "Radial Shear",
+        "Category": "Filters",
+        "Description": "Applies a swirling distortion to the image that emanates from the center point. The effect is similar to viewing the image through a whirlpool or cyclone, creating a sense of movement and rotation."
+    },
+    "Content": 
+    {
+        "Key": "Modificator",
+        "Data": 
+        {
+            "Path": "Filter / Distortion / Radial Shear",
+            "Properties": 
+            [
+                {
+                    "Name": "Strength",
+                    "Summary": "Adjusts the intensity of the swirling distortion. A higher strength value will make the rotation effect more pronounced, creating a more dramatic cyclone effect. Conversely, a lower strength value will produce a subtler, gentler swirling effect.",
+                    "Type": "Slider"
+                }
+            ],
+            "Preview": 
+            {
+                "Original": "/img/previews/filters/radial_shear_example_original.jpg",
+                "Adjusted": "/img/previews/filters/radial_shear_example_adjusted.jpg"
+            }
+        }
+    }
+}

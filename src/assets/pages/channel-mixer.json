@@ -1,0 +1,54 @@
+{ 
+    "Info":
+    {
+        "DisplayTitle": "Channel Mixer",
+        "Category": "Adjustments",
+        "Description": "This tool allows you to adjust the color balance in your image by mixing the intensity of the Red, Green, and Blue color channels. It's a more complex method for color correction and also offers the ability to convert the image to monochrome."
+    },
+    "Content": 
+    {
+        "Key": "Modificator",
+        "Data": 
+        {
+            "Path": "Image / Adjustments / Color / Channel Mixer",
+            "Properties":
+            [
+                {
+                    "Name": "Red",
+                    "Summary": "This slider adjusts the influence of the red color channel. Moving it to the right will make red hues stronger, while moving it to the left will lessen their impact.",
+                    "Type": "Slider"
+                },
+                {
+                    "Name": "Green",
+                    "Summary": "This slider changes the influence of the green color channel. Sliding it to the right intensifies the green hues, while sliding it to the left reduces them.",
+                    "Type": "Slider"
+                },
+                {
+                    "Name": "Blue",
+                    "Summary": "This slider modifies the influence of the blue color channel. Moving the slider to the right will amplify blue hues, while moving it to the left will decrease them.",
+                    "Type": "Slider"
+                },
+                {
+                    "Name": "Channel Constant",
+                    "Summary": "This slider changes the overall intensity of a color channel.",
+                    "Type": "Slider"
+                },
+                {
+                    "Name": "Monochrome",
+                    "Summary": "This toggle switches the image between color and monochrome (black and white). When activated, all color information will be removed, leaving a grayscale image.",
+                    "Type": "Toggle"
+                },
+                {
+                    "Name": "Monochrome Constant",
+                    "Summary": "This adjusts the brightness of the grayscale image. Sliding it to the right will make the image lighter, while sliding it to the left will make it darker.",
+                    "Type": "Slider"
+                }
+            ],
+            "Preview": 
+            {
+                "Original": "/img/previews/adjustments/channel_mixer_example_original.jpg",
+                "Adjusted": "/img/previews/adjustments/channel_mixer_example_adjusted.jpg"
+            }
+        }
+    }
+}

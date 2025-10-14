@@ -1,0 +1,14 @@
+[
+    {
+        "Text": "<b>Import Pixel Harmony Package:</b> After importing the Pixel Harmony package into your Unity project, the Hub window will automatically open."
+    },
+    {
+        "Text": "<b>Select Capability Version:</b> Within the Hub window, you'll find a dropdown menu for selecting the capability version that best suits your project. The Hub aims to choose the correct version for you automatically. However, it's crucial to verify this selection to ensure compatibility with your specific Unity project version."
+    },
+    {
+        "Text": "<b>Ensure Compatibility:</b> Pixel Harmony requires Unity version <b>2021.2</b> or later. Unfortunately, older versions of Unity are not supported. Make sure your project meets this requirement before proceeding."
+    },
+    {
+        "Text": "<b>Import Source Files:</b> After verifying and selecting the appropriate version, click the '<b>Import</b>' button. This action initiates the import of the Pixel Harmony source files into your project."
+    }
+]

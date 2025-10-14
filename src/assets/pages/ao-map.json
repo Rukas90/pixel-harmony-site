@@ -1,0 +1,55 @@
+{ 
+    "Info":
+    {
+        "DisplayTitle": "AO Map",
+        "Label": "Expermental Feature",
+        "Category": "Filters",
+        "Description": "Generates an ambient occlusion map from the input image. An ambient occlusion map is employed in 3D rendering to simulate environmental lighting effects, darkening areas that are less exposed to light. This enhances the realism of light and shadow interactions in the scene."
+    },
+    "Content": 
+    {
+        "Key": "Modificator",
+        "Data": 
+        {
+            "Path": "Filter / Generation / Expermental / AO Map",
+            "Properties": 
+            [
+                {
+                    "Name": "Depth",
+                    "Summary": "Determines how depth differences between neighboring pixels influence the occlusion effect. Larger values lessen the impact, making occlusions appear shallower, while smaller values increase the impact, making them appear deeper.",
+                    "Type": "Slider"
+                },
+                {
+                    "Name": "Power",
+                    "Summary": "Adjusts the overall intensity of the occlusion effect. Higher values create greater contrast between occluded and non-occluded areas, resulting in a more pronounced lighting effect.",
+                    "Type": "Slider"
+                },
+                {
+                    "Name": "Bias",
+                    "Summary": "Controls the overall brightness of the ambient occlusion map. A higher bias results in a brighter map with less occlusion, while a lower bias darkens the map, enhancing the occlusion effect.",
+                    "Type": "Slider"
+                },
+                {
+                    "Name": "Number of Samples",
+                    "Summary": "Specifies the number of samples used for generating the blur effect. More samples yield smoother transitions between occluded and non-occluded areas but require more processing time.",
+                    "Type": "Slider"
+                },
+                {
+                    "Name": "Blur Radius",
+                    "Summary": "Determines the size of the area used for blurring. Larger values produce broader, more diffused occlusion, while smaller values result in tighter, more focused occlusion.",
+                    "Type": "Slider"
+                }
+            ],
+            "Info": 
+            {
+                "Label": "Recommendation:",
+                "Text": "For optimal results, it is recommended to first generate a height map from the base image and then use this height map as the source to generate the ambient occlusion map."
+            },
+            "Preview": 
+            {
+                "Original": "/img/previews/filters/albedo_map_example_original.jpg",
+                "Adjusted": "/img/previews/filters/ao_map_example_adjusted.jpg"
+            }
+        }
+    }
+}

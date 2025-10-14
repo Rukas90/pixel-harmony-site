@@ -1,0 +1,39 @@
+{ 
+    "Info":
+    {
+        "DisplayTitle": "Lift, Gain and Gamma",
+        "Category": "Adjustments",
+        "Description": "Gives advanced control over the color balance and intensity in the shadows (lift), mid-tones (gamma), and highlights (gain) of the image. It allows to adjust three elements for each of the Red, Green, and Blue color channels separately, offering precise color correction and creative color grading."
+    },
+    "Content": 
+    {
+        "Key": "Modificator",
+        "Data": 
+        {
+            "Path": "Image / Adjustments / Color / Lift Gain Gamma",
+            "Properties":
+            [
+                {
+                    "Name": "Lift",
+                    "Summary": "This adjusts the shadows in your image. Increasing the lift value will lighten the shadows, while decreasing it will darken them. It predominantly affects darker areas without significantly altering the mid-tones or highlights.",
+                    "Type": "Slider"
+                },
+                {
+                    "Name": "Gain",
+                    "Summary": "This setting modifies the highlights in your image. Increasing the gain value will brighten the highlights, while decreasing it will dim them. It primarily affects the brightest areas while largely preserving the shadows and mid-tones.",
+                    "Type": "Slider"
+                },
+                {
+                    "Name": "Gamma",
+                    "Summary": "This parameter adjusts the mid-tones in your image. Increasing the gamma value will lighten the mid-tones, while decreasing it will darken them. It changes the middle range of light values without significantly affecting the shadows or highlights.",
+                    "Type": "Slider"
+                }
+            ],
+            "Preview": 
+            {
+                "Original": "/img/previews/adjustments/lift_gain_gamma_example_original.jpg",
+                "Adjusted": "/img/previews/adjustments/lift_gain_gamma_example_adjusted.jpg"
+            }
+        }
+    }
+}

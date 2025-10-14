@@ -1,0 +1,49 @@
+{ 
+    "Info":
+    {
+        "DisplayTitle": "Glowing Edge",
+        "Category": "Filters",
+        "Description": "Illuminates the edges in the image, creating a neon-like glow that makes the outlines stand out. It's a great tool for creating artistic effects or emphasizing particular features in the image."
+    },
+    "Content": 
+    {
+        "Key": "Modificator",
+        "Data": 
+        {
+            "Path": "Filter / Stylize / Glowing Edge",
+            "Properties": 
+            [
+                {
+                    "Name": "Edge Width",
+                    "Summary": "This adjusts the thickness of the glowing edges. A higher value will result in thicker, more prominent glowing lines, while a lower value will produce thinner, subtler glows.",
+                    "Type": "Slider"
+                },
+                {
+                    "Name": "Intensity",
+                    "Summary": "Determines the intensity of the glow. A higher power value intensifies the brightness and saturation of the glow, while a lower power value creates a more subdued glow.",
+                    "Type": "Slider"
+                },
+                {
+                    "Name": "Brightness",
+                    "Summary": "Adjusts the overall brightness of the glowing edges. Higher values will make the glow more vibrant, while lower values will produce a dimmer glow.",
+                    "Type": "Slider"
+                },
+                {
+                    "Name": "Smoothness",
+                    "Summary": "Adjusts how much the glowing edges blend with the surrounding pixels. A higher smoothness value results in softer, smoother glows that blend more with the image, while a lower smoothness value produces sharper, more distinct glowing edges.",
+                    "Type": "Slider"
+                },
+                {
+                    "Name": "Monochrome",
+                    "Summary": "Applies the Glowing Edge filter only to the luminance of the image, resulting in a monochromatic output.<br>If disabled, the filter is applied to each color channel, preserving the original colors while still emphasizing the glowing edges.",
+                    "Type": "Toggle"
+                }
+            ],
+            "Preview": 
+            {
+                "Original": "/img/previews/filters/glowing_edge_example_original.jpg",
+                "Adjusted": "/img/previews/filters/glowing_edge_example_adjusted.jpg"
+            }
+        }
+    }
+}
