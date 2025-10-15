@@ -26,7 +26,7 @@ const DocMenuGroup = ({ label, items, indent, menu }: Props) => {
         >
           <ArrowIcon fill="#FFFFFF" />
         </div>
-        <p className="text-stone-300 lg:text-sm text-lg">{label}</p>
+        <p className="text-stone-300 lg:text-sm text-md">{label}</p>
       </div>
 
       {foldout && <DocMenuItem items={items} indent={indent + 1} menu={menu} />}

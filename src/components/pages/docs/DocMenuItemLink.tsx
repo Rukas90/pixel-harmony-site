@@ -35,7 +35,7 @@ const DocMenuItemLink = ({ label, indent, href, active, menu }: Props) => {
         } transition-opacity font-normal`}
         href={active ? "" : href || "#"}
       >
-        <div className="flex flex-row items-center lg:text-sm text-lg">
+        <div className="flex flex-row items-center lg:text-sm text-md">
           <div
             className={`lg:h-7 h-12 w-px mr-3 opacity-50 ${
               active ? "bg-yellow-400" : "bg-neutral-400"

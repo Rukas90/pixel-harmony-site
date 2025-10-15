@@ -61,7 +61,7 @@ const DocMenu = ({ items }: Props) => {
             <div className="lg:hidden block p-5">
               <CloseBtn onClick={() => setOpenState(false)} />
             </div>
-            <div className="lg:block hidden px-5">
+            <div className="px-5">
               <SearchField onValueChanged={setFilter} />
             </div>
             <div

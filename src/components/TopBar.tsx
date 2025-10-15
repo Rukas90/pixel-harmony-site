@@ -19,8 +19,8 @@ const TopBar = () => {
       <div className="w-full bg-stone-900 px-8 py-4 h-[80px">
         <div className="max-w-constraint text-start flex flex-row items-center justify-between mx-auto">
           <div className="flex flex-row items-center h-full">
-            <img src={logo} className="w-12 mr-4" />
-            <h1 className="text-stone-200 font-medium tracking-wide md:text-xl sm:text-lg xs:block hidden">
+            <img src={logo} className="w-9 mr-4" />
+            <h1 className="text-stone-200 font-medium tracking-wide md:text-md sm:text-lg">
               PIXEL HARMONY
             </h1>
           </div>
